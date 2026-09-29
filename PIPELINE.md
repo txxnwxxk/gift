@@ -1,27 +1,30 @@
 # Quy trình làm phim AI – Topview
 
-> Bản nháp v0.3 – **khung lớn đang chờ chốt**. Khi khung được chốt, từng bước sẽ được brainstorm chi tiết rồi đóng thành skill.
+> v0.4 – **khung 6 Gate đã chốt**. Đang phân tích chi tiết Gate 1 (xem `gates/gate-1-phat-trien.md`). Khi mọi Gate được chốt, toàn bộ sẽ được đóng thành skill.
 
 ## Nguyên tắc đã chốt
 
 1. Đây là quy trình làm **phim AI theo hướng điện ảnh**, không phải phim quay thật.
-2. **Claude làm, bạn chốt.** Claude thực hiện mọi bước; bạn chỉ duyệt ở các cổng. Claude không sang bước sau khi chưa có "chốt".
+2. **Claude làm, bạn chốt.** Claude thực hiện mọi bước; bạn chỉ duyệt ở các điểm chốt. Claude không sang bước sau khi chưa có "chốt".
 3. Phần nào của phim truyền thống không cần cho phim AI thì **loại bỏ hoặc gộp lại**.
 4. Cách làm việc: chốt khung lớn trước, sau đó mới đi sâu từng bước.
+5. Sáu giai đoạn gọi là **Gate 1 → Gate 6**. Phải chốt xong Gate trước mới được sang Gate sau.
+6. Bên trong mỗi Gate có các **điểm chốt** nhỏ; "Gate" chỉ dùng cho giai đoạn lớn.
+7. **Cuối mỗi tin nhắn** luôn có checklist các mục đã chốt và các mục đang chờ chốt.
 
-## Khung quy trình: 6 giai đoạn, 9 bước
+## Khung quy trình: 6 Gate, 9 bước
 
-| Giai đoạn | Bước | Claude làm | Bạn chốt (cổng) |
+| Gate | Bước | Claude làm | Điểm chốt |
 |---|---|---|---|
-| **1. Phát triển** | **B1. Ý tưởng & brief** | 3 phương án: logline, thể loại, tone, thời lượng, tỉ lệ khung, khán giả, phim tham chiếu | Chọn 1 phương án |
+| **Gate 1 – Phát triển** | **B1. Ý tưởng → treatment** | 6 bước từ ý tưởng thô đến treatment (xem `gates/gate-1-phat-trien.md`) | Brief, chọn concept, duyệt treatment |
 | | **B2. Kịch bản** | Kịch bản + bảng bóc tách (nhân vật, bối cảnh, đạo cụ, trang phục) | Chốt kịch bản |
-| **2. Thiết kế** | **B3. Visual bible & tài sản** | 3a: 2–3 hướng phong cách (style frame, bảng màu, ánh sáng, ống kính). 3b: sheet nhân vật (xoay 360°, biểu cảm, trang phục), bối cảnh, đạo cụ | 3a: chọn phong cách. 3b: duyệt từng tài sản |
+| **Gate 2 – Thiết kế** | **B3. Visual bible & tài sản** | 3a: 2–3 hướng phong cách (style frame, bảng màu, ánh sáng, ống kính). 3b: sheet nhân vật (xoay 360°, biểu cảm, trang phục), bối cảnh, đạo cụ | 3a: chọn phong cách. 3b: duyệt từng tài sản |
 | | **B4. Giọng & thoại** | Chọn giọng cho từng nhân vật, tạo toàn bộ thoại, đo thời lượng | Duyệt giọng và thoại |
-| **3. Dựng trước** | **B5. Storyboard & animatic** | Shot list (mã shot, thời lượng, cỡ cảnh, chuyển động máy, model, ước tính credit), storyboard nháp, animatic ghép thoại + nhạc tạm | **Chốt animatic + ngân sách credit** (cổng quan trọng nhất) |
-| **4. Sản xuất** | **B6. Keyframe** | Ảnh hoàn chỉnh cho từng shot, đối chiếu với sheet nhân vật | Duyệt keyframe theo từng cảnh |
+| **Gate 3 – Dựng trước** | **B5. Storyboard & animatic** | Shot list (mã shot, thời lượng, cỡ cảnh, chuyển động máy, model, ước tính credit), storyboard nháp, animatic ghép thoại + nhạc tạm | **Chốt animatic + ngân sách credit** (điểm chốt quan trọng nhất) |
+| **Gate 4 – Sản xuất** | **B6. Keyframe** | Ảnh hoàn chỉnh cho từng shot, đối chiếu với sheet nhân vật | Duyệt keyframe theo từng cảnh |
 | | **B7. Video hóa** | Ảnh → video, lipsync, đổi phong cách nếu cần, sửa lỗi và tạo lại | Duyệt take theo từng cảnh |
-| **5. Hậu kỳ** | **B8. Hậu kỳ tổng hợp** | Dựng theo animatic, SFX, ambience, nhạc, mix, đồng bộ màu giữa các model, upscale, phụ đề, credit cuối | Chốt bản master |
-| **6. Phát hành** | **B9. Phát hành** | Bản cho từng nền tảng (16:9, 9:16), trailer/teaser, thumbnail, caption, nhãn AI | Chốt gói phát hành |
+| **Gate 5 – Hậu kỳ** | **B8. Hậu kỳ tổng hợp** | Dựng theo animatic, SFX, ambience, nhạc, mix, đồng bộ màu giữa các model, upscale, phụ đề, credit cuối | Chốt bản master |
+| **Gate 6 – Phát hành** | **B9. Phát hành** | Bản cho từng nền tảng (16:9, 9:16), trailer/teaser, thumbnail, caption, nhãn AI | Chốt gói phát hành |
 | **Xuyên suốt** | **Hồ sơ dự án** | Đặt tên file, phiên bản, nhật ký prompt/model/seed, theo dõi credit, nhật ký quyết định, lưu trữ | – |
 
 B3 và B4 có thể chạy song song.
@@ -36,7 +39,7 @@ B3 và B4 có thể chạy song song.
 | Tập dượt, blocking diễn viên, previs 3D riêng | Gộp vào B5 |
 | Lịch quay, call sheet, quản lý đoàn, thuê thiết bị | Loại bỏ; thay bằng ngân sách credit ở B5 |
 | Quay chính | Thay bằng B6 + B7 |
-| Dailies, giám sát liên tục (script supervisor) | Thay bằng cổng duyệt + đối chiếu sheet nhân vật |
+| Dailies, giám sát liên tục (script supervisor) | Thay bằng điểm chốt + đối chiếu sheet nhân vật |
 | Thu âm hiện trường, ADR, Foley | Loại bỏ; thay bằng thoại AI (B4) và SFX AI (B8) |
 | Dựng, âm thanh, màu, VFX là các bộ phận riêng | Gộp thành một bước B8 |
 | Bảo hiểm, hợp đồng đoàn, hậu cần | Loại bỏ |
@@ -51,7 +54,7 @@ B3 và B4 có thể chạy song song.
 - **QC lỗi AI:** tay, mặt, biến dạng, nhấp nháy, chữ, nhân vật bị lệch.
 - **Pháp lý:** giấy phép thương mại của công cụ, không dùng mặt/giọng người thật, gắn nhãn AI.
 
-## Cách một cổng duyệt hoạt động
+## Cách một điểm chốt hoạt động
 
 1. Claude trình bày sản phẩm của bước, kèm các phương án nếu có.
 2. Claude báo trước chi phí credit của bước tiếp theo.
@@ -66,7 +69,6 @@ B3 và B4 có thể chạy song song.
 
 ## Câu hỏi còn mở
 
-1. Khung 6 giai đoạn, 9 bước này đã chốt được chưa?
-2. "Style Transformation" trong khóa học bạn theo làm gì cụ thể?
-3. Định dạng chính: phim ngắn ngang, microdrama dọc, hay cả hai?
-4. Công cụ chính: Topview, hay giữ trung lập về công cụ?
+1. "Style Transformation" trong khóa học bạn theo làm gì cụ thể?
+2. Định dạng chính: phim ngắn ngang, microdrama dọc, hay cả hai?
+3. Công cụ chính: Topview, hay giữ trung lập về công cụ?
