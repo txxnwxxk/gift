@@ -1,6 +1,6 @@
 # Quy trình làm phim AI – Topview
 
-> v0.4 – **khung 6 Gate đã chốt**. Đang phân tích chi tiết Gate 1 (xem `gates/gate-1-phat-trien.md`). Khi mọi Gate được chốt, toàn bộ sẽ được đóng thành skill.
+> v0.5 – **khung 6 Gate và quy trình Gate 1 (6 bước, 3 điểm chốt) đã chốt**. Đang chốt thông số chi tiết của Gate 1 (xem `gates/gate-1-phat-trien.md`). Khi mọi Gate được chốt, toàn bộ sẽ được đóng thành skill.
 
 ## Nguyên tắc đã chốt
 
