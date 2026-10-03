@@ -164,10 +164,11 @@ Từ 1.4 đến 1.6, Claude chạy liền và trình cả ba tài liệu cùng l
 | Logline | 25–40 từ, 1 câu, đủ 4 thành phần |
 | Thông điệp | 1 câu, ≤ 15 từ |
 | Nhân vật chính | 1 (ghi: muốn gì bên ngoài / cần gì bên trong / khuyết điểm / ngoại hình 1 câu) |
+| Kiểu cung nhân vật | **thay đổi** (nhân vật đổi) hoặc **phẳng** (nhân vật giữ nguyên, đi làm đổi người khác hoặc thế giới); ghi rõ chọn kiểu nào và vì sao |
 | Nhân vật phụ | ≤ 2, mỗi người ghi chức năng 1 câu; bỏ nếu không đổi được kết quả |
 | Nhân vật lên hình | **≤ 4**, trong đó có thoại **≤ 3** |
 | Bối cảnh | **≤ 4** |
-| Story Spine | 7 câu chuẩn, tối đa 8 câu; mỗi câu ≤ 25 từ; có 1–2 câu "Vì thế" |
+| Story Spine | 7 câu chuẩn, tối đa 8 câu; mỗi câu ≤ 25 từ; có 1–2 câu "Vì thế"; **mỗi câu gắn vào một hồi**: Ngày xưa / Mỗi ngày / Cho đến một ngày = Hồi 1; Vì thế = Hồi 2; Cho đến cuối cùng / Kể từ đó = Hồi 3 |
 | Kết thúc | ghi loại (vui / buồn / mở), cảm xúc để lại, có twist hay không |
 
 **Đầu ra:** `P01_G1_1.4_loi_truyen_v1.md`, ≤ 1 trang.
@@ -186,17 +187,15 @@ Từ 1.4 đến 1.6, Claude chạy liền và trình cả ba tài liệu cùng l
 3. Tính số shot và số lần tạo ước tính.
 4. Kiểm tra tổng giây, kiểm tra khoảnh khắc hình ảnh.
 
-**Mỗi beat gồm:** mã · **thấy gì** (≤ 25 từ) · **nghe gì** (thoại / voice-over / nhạc / SFX chính) · số giây · số shot · nhân vật có mặt · bối cảnh · cờ AI liên quan · có phải khoảnh khắc hình ảnh không.
+**Mỗi beat gồm:** mã · **hồi (1/2/3)** · **thấy gì** (≤ 25 từ) · **nghe gì** (thoại / voice-over / nhạc / SFX chính) · số giây · số shot · nhân vật có mặt · bối cảnh · cờ AI liên quan · có phải khoảnh khắc hình ảnh không.
 
-**Khung tỉ lệ thời lượng (đề xuất v1):**
+**Đồng hồ ba hồi (đã chốt, thay bảng tỉ lệ cũ)** [ĐÃ KIỂM CHỨNG: Syd Field 25/50/25; Save the Cat 20/60/20; dung sai SUY RA]:
 | Phần | Tỉ lệ |
 |---|---|
-| Hook | ≤ 5 giây (phim ≤ 90 giây) |
-| Thế giới bình thường | 10–15% |
-| Biến cố | 10–15% |
-| Leo thang | 30–40% |
-| Cao trào | 15–25% |
-| Kết / dư âm | 8–12% |
+| Hồi 1 – Mở đầu | 20–25% (kết thúc ở Break into Two / plot point 1) |
+| Hồi 2 – Xung đột | 50–60% (midpoint ở 50% ±10%; All Is Lost ở khoảng 75%) |
+| Hồi 3 – Kết | 20–25% (bắt đầu ở Break into Three, khoảng 75–80%) |
+| Hook | ≤ 5 giây (phim ≤ 90 giây), nằm trong Hồi 1 |
 
 **Luật số liệu:**
 - **Tổng số giây các beat = thời lượng trong brief ± 5%.**

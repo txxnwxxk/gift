@@ -96,7 +96,7 @@ Chín nguyên liệu bàn giao từ B1: brief, ý gốc + "giữ nguyên", lõi 
 
 **Mẫu (minh họa)** – phim 60 giây "Chiếc đồng hồ của ba", cảnh đầu:
 ```
-C01 · NỘI. PHÒNG CỦA CÔ – NGÀY                      [B1–B3 · 26 giây]
+C01 · NỘI. PHÒNG CỦA CÔ – NGÀY                      [B1–B3 · 22 giây]
 
 Ngăn kéo mở ra.
 Chiếc đồng hồ cũ nằm trong khăn lụa. Kim dừng ở 3:07.
@@ -107,7 +107,7 @@ Kim giây giật một nhịp. Rồi chạy.
 CÔ (VO)
 Ba ơi, đồng hồ chạy lại rồi.
 ```
-Cảnh này có 6 dòng hành động cho 26 giây (≈ 4,3 giây mỗi dòng, khớp giả định 4 giây/shot) và 1 câu 7 tiếng ≈ 1,6 giây.
+Cảnh này có 6 dòng hành động cho 22 giây (≈ 3,7 giây mỗi dòng, trong dải ±25% của giả định 4 giây/shot) và 1 câu 7 tiếng ≈ 1,6 giây.
 
 ### Bước 2.4 – Kiểm tra và bóc tách  ▸ ĐIỂM CHỐT 5
 
@@ -122,6 +122,7 @@ Cảnh này có 6 dòng hành động cho 26 giây (≈ 4,3 giây mỗi dòng, k
 8. Yêu cầu riêng của hồ sơ (microdrama, kinh dị, quảng cáo) đã đạt.
 9. K1 vẫn đúng.
 10. **Số dòng hành động chính ≈ tổng giây ÷ 4 (±25%).** Nếu lệch hơn, báo ngay vì nó cho biết giả định shot 4 giây có hợp thực tế không (nối với Gate 3) [SUY RA].
+11. **Tỉ lệ ba hồi khớp:** Hồi 1 20–25% · Hồi 2 50–60% · Hồi 3 20–25% · midpoint 50% ±10% [ĐÃ KIỂM CHỨNG: Syd Field, Save the Cat; dung sai SUY RA].
 
 **Bóc tách (đầu vào cho Gate 2):**
 - **Nhân vật:** tên · vai · số cảnh · có thoại không · giọng sơ bộ · ngoại hình sơ bộ (từ 1.4).
@@ -129,9 +130,9 @@ Cảnh này có 6 dòng hành động cho 26 giây (≈ 4,3 giây mỗi dòng, k
 - **Đạo cụ then chốt, trang phục sơ bộ.**
 - **Âm thanh then chốt:** SFX và nhạc theo cảnh.
 
-**Đầu ra:** kịch bản v1 + `P01_G1_2.4_boc_tach_v1.md` + bảng 10 kiểm tra.
+**Đầu ra:** kịch bản v1 + `P01_G1_2.4_boc_tach_v1.md` + bảng 11 kiểm tra.
 
-**Điều kiện đạt:** cả 10 kiểm tra đạt.
+**Điều kiện đạt:** cả 11 kiểm tra đạt.
 
 **Bạn làm:** `chốt` toàn bộ, hoặc chốt từng phần (kịch bản / bóc tách).
 
@@ -150,7 +151,7 @@ Cảnh này có 6 dòng hành động cho 26 giây (≈ 4,3 giây mỗi dòng, k
 | 7 | Ước tính số lần tạo (cập nhật theo số dòng hành động) | Gate 3 |
 | 8 | Nhật ký quyết định Gate 1 | Toàn bộ |
 
-**Gate 1 đóng khi:** cả 5 điểm chốt đã ĐÃ CHỐT · 10 kiểm tra ở 2.4 đạt · cổng ra của B1 đạt · 8 nguyên liệu trên đã sẵn sàng.
+**Gate 1 đóng khi:** cả 5 điểm chốt đã ĐÃ CHỐT · 11 kiểm tra ở 2.4 đạt · cổng ra của B1 đạt · 8 nguyên liệu trên đã sẵn sàng.
 
 ## 6. Bảng độ tin cậy riêng của B2
 
@@ -161,12 +162,36 @@ Cảnh này có 6 dòng hành động cho 26 giây (≈ 4,3 giây mỗi dòng, k
 | Một chủ thể, một hành động mỗi dòng | [ĐÃ KIỂM CHỨNG] (nguồn nhà cung cấp công cụ) |
 | 1 trang ≈ 1 phút | [ĐÃ KIỂM CHỨNG] (trung bình) |
 | Tốc độ đọc tiếng Việt 5,2 âm tiết/giây | [ĐÃ KIỂM CHỨNG] |
-| 4,5 âm tiết/giây cho thoại điện ảnh | [SUY RA] |
+| 4,5 âm tiết/giây cho thoại điện ảnh | [SUY RA có cơ sở]: 5,2 × (130 ÷ 150) |
 | Số cảnh ≤ số beat | Lập luận logic từ định nghĩa |
-| Tỉ lệ giây có lời 50% / 70% | [GIẢ ĐỊNH] |
-| Câu thoại ≤ 20 tiếng | [GIẢ ĐỊNH] |
+| Tỉ lệ giây có lời: 50% (phim) có nguồn; 70% quảng cáo suy ra; 70% microdrama giả định | Xem mục 6.1 |
+| Câu thoại ≤ 20 tiếng | [SUY RA] từ giới hạn clip 8–10 giây |
 | Độ dài kịch bản ±25% | [SUY RA] |
 | Kiểm tra số dòng hành động ≈ giây ÷ 4 (±25%) | [SUY RA] |
+
+### 6.1 Nguồn gốc các con số của bước 2.2 (đã tra)
+
+Khi viết bản đầu, phần lớn các con số này **chưa được dẫn nguồn**. Sau khi tra:
+
+| Con số | Nguồn / cách suy ra | Độ tin cậy |
+|---|---|---|
+| Đọc tiếng Việt 5,2 âm tiết/giây | Pellegrino 2011 | [ĐÃ KIỂM CHỨNG] |
+| **Trần 4,5 âm tiết/giây** | 5,2 × (130 ÷ 150). 130 từ/phút là nhịp thoại của phim chính kịch hoặc trầm; 150 từ/phút là nhịp đọc voice-over trung bình (cả hai đã kiểm chứng) | [SUY RA có cơ sở] |
+| **Giây có lời ≤ 50%** (hồ sơ A, C, E, F) | Trung bình thoại chiếm dưới 50% thời lượng phim (năm 1940: 60%; năm 2005: 35,6%); phim dài thường 40–60% | [ĐÃ KIỂM CHỨNG trung bình], dùng làm trần |
+| Kinh dị ≤ 35% (đề xuất mới) | Kinh dị là thể loại ít lời nhất (khoảng 6.243 từ thoại mỗi phim, so với 10.289 của phim hình sự) | [SUY RA] |
+| **Giây có lời ≤ 70%** (hồ sơ B quảng cáo) | 30 giây ≈ 60–75 từ ở 2,5 từ/giây; hình sản phẩm, logo, phản ứng có thể chiếm khoảng 1/3 thời lượng mà không có lời | [SUY RA] |
+| Giây có lời ≤ 70% (hồ sơ D microdrama) | **Chưa có nguồn trực tiếp.** Nguồn chỉ nêu tập 90 giây ≈ 400–600 từ cả hành động lẫn thoại, và tập 60 giây ≈ 120–150 từ | [GIẢ ĐỊNH] |
+| **Câu thoại ≤ 20 tiếng** | 20 ÷ 4,5 ≈ 4,4 giây; vừa trong clip 8 giây (Veo 3.1) và 10 giây (Kling 3.0), còn chỗ cho khoảng nghỉ | [SUY RA] từ giới hạn clip đã kiểm chứng |
+| Microdrama: câu ≤ 12 từ (≈ 15 tiếng) | Hướng dẫn viết microdrama: dưới 12 từ mỗi câu, mỗi lượt nói tối đa 2 dòng, hành động mỗi beat ≤ 7 từ, 3–5 beat hình ảnh mỗi tập | [ĐÃ KIỂM CHỨNG] hướng dẫn từ blog, độ tin cậy trung bình |
+| Tối đa 2 lượt thoại qua lại | Cách giải do mình đặt cho cờ F2 | [GIẢ ĐỊNH] |
+| Mặc định ưu tiên voice-over | Cờ F2; nghiên cứu cho biết hệ thống tạo truyện bằng AI còn thiếu tương tác và đối thoại giữa các nhân vật | [SUY RA] |
+| **Cách chia giữa voice-over và thoại** | **Chưa có con số nào.** Hiện chỉ có mặc định định tính ở dòng trên | – |
+
+**Hai điểm phát hiện thêm, để xử lý ở Gate 3:**
+- Kling 3.0 cải thiện lipsync cho 8 ngôn ngữ, nhưng nguồn **không nói có tiếng Việt hay không**. Phải kiểm tra trước khi chọn làm thoại tiếng Việt.
+- Theo các nguồn tìm được, **Sora 2 đã ngừng** (ứng dụng ngừng ngày 26/4/2026, API đóng ngày 24/9/2026). Không dựa vào nó khi chọn công cụ.
+
+**Đề xuất điều chỉnh (chờ chốt):** (1) thêm trần giây có lời ≤ 35% cho kinh dị; (2) microdrama dùng trần câu thoại ≤ 15 tiếng, các hồ sơ khác giữ 20 tiếng; (3) cách chia voice-over/thoại theo hồ sơ [GIẢ ĐỊNH]: quảng cáo thiên về voice-over, microdrama thiên về thoại, phim cảm xúc để voice-over ở mức tối thiểu.
 
 ## 7. Cần bạn chốt
 
@@ -174,7 +199,7 @@ Cảnh này có 6 dòng hành động cho 26 giây (≈ 4,3 giây mỗi dòng, k
 - [ ] Ngân sách lời nói (2.2): trần 4,5 âm tiết/giây, tỉ lệ giây có lời, câu thoại ≤ 20 tiếng
 - [ ] Mặc định ưu tiên voice-over hoặc không lời khi brief không yêu cầu thoại
 - [ ] Kịch bản không có góc máy (để Gate 3)
-- [ ] Danh sách 10 kiểm tra ở 2.4 và danh sách bàn giao
+- [ ] Danh sách 11 kiểm tra ở 2.4 và danh sách bàn giao
 
 ## Nguồn
 - Cảnh: https://nofilmschool.com/how-to-write-a-scene · https://tripteepictures.com/articles/turn-your-scene · https://theweeklyemail.storyandplot.com/five-questions-for-every-scene/ · https://thescriptlab.com/screenwriting/script-tips/620-scenes-start-late-get-out-early/
@@ -182,3 +207,7 @@ Cảnh này có 6 dòng hành động cho 26 giây (≈ 4,3 giây mỗi dòng, k
 - Kịch bản cho video AI: https://www.renderforest.com/blog/write-script-ai-video-generation · https://lumalabs.ai/news/write-ai-video-prompts
 - 1 trang ≈ 1 phút: https://www.finaldraft.com/blog/does-one-page-equal-one-minute-of-screen-time · https://nofilmschool.com/one-page-equals-one-minute
 - Tốc độ nói: http://www.ddl.cnrs.fr/fulltext/pellegrino/Pellegrino_2011_Language.pdf · https://www.science.org/content/article/human-speech-may-have-universal-transmission-rate-39-bits-second · https://bunnystudio.com/blog/voiceover-words-per-minute-choosing-the-ideal-information-rate/
+- Mật độ thoại: https://stephenfollows.com/p/has-the-way-movies-use-dialogue-changed · https://darkskiesfilm.com/how-many-words-are-in-a-movie/ · https://www.redsharknews.com/lets-talk-about-dialogue
+- Quảng cáo và microdrama: https://www.screenweaver.ai/blog/commercial-script-length-timing · https://robertstarling.com/how-many-words-fit-in-a-30-second-commercial-a-voiceover-script-timing-guide/ · https://www.screenweaver.ai/blog/short-drama-script-format · https://www.axisaistudios.com/blog/script-structure-for-vertical-dramas-episode-by-episode-guide
+- Độ dài clip và lipsync: https://wavespeed.ai/blog/posts/seedance-2-0-vs-kling-3-0-sora-2-veo-3-1-video-generation-comparison-2026/ · https://aimlapi.com/blog/best-ai-video-generators-2026-veo-3-1-kling-sora-2-seedance-more-compared
+- AI thiếu đối thoại giữa nhân vật: https://arxiv.org/pdf/2508.08487

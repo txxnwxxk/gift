@@ -115,9 +115,9 @@ Concept trượt K1 hoặc K2 thì không vào danh sách đề xuất.
 | **Hình ảnh ×2** | Có khoảnh khắc đáng chụp màn hình; hook có hình | **1:** không tả được bằng 1 câu · **3:** 1 khoảnh khắc · **5:** ≥ 2 khoảnh khắc và hook có hình | Tốt: "kim đồng hồ chạy ngược trên bàn tay cô" |
 | **Khả thi AI ×3** | Có chạm giới hạn video AI không | Đếm cờ F1–F8 và xem đã có cách giải chưa. **5:** 0 cờ · **4:** 1 cờ đã giải · **3:** 2 cờ đã giải · **2:** 1 cờ chưa giải, hoặc ≥ 3 cờ · **1:** ≥ 2 cờ chưa giải. **Dưới 3 là loại** | "Đánh nhau 5 người giữa đám đông" = F1 + F3 + F5 → loại |
 | **Chi phí ×1** | Số nhân vật + bối cảnh, **so với trần hồ sơ** | Tài sản ÷ trần: **5:** ≤ 40% · **4:** 41–60% · **3:** 61–80% · **2:** 81–100% · **1:** > 100% (loại) | Hồ sơ C trần 3 + 3 = 6; dùng 3 tài sản = 50% → 4 điểm |
-| **Hợp thời lượng ×1** | Kể trọn trong thời lượng | Số beat cần ÷ số beat tối đa của hồ sơ (mục 3.5). **5:** ≤ 60% · **4:** ≤ 80% · **3:** ≤ 100% · **2:** ≤ 120% · **1:** > 120% | Hồ sơ C tối đa 8; cần 6 = 75% → 4 điểm |
+| **Hợp thời lượng ×1** | Kể trọn trong thời lượng | Số beat cần ÷ số beat tối đa của hồ sơ (mục 3.5). **5:** ≤ 60% · **4:** ≤ 80% · **3:** ≤ 100% · **2:** ≤ 120% · **1:** > 120% | Hồ sơ C tối đa 8; cần 7 = 88% → 3 điểm |
 
-**Ví dụ tính điểm (minh họa)** – "Chiếc đồng hồ của ba", hồ sơ C: 15 + 6 + 10 + 8 + 12 + 4 + 4 = **59/70 = 84,3% → ĐẠT**.
+**Ví dụ tính điểm (minh họa)** – "Chiếc đồng hồ của ba", hồ sơ C: 15 + 6 + 10 + 8 + 12 + 4 + 3 = **58/70 = 82,9% → ĐẠT**.
 
 **Về ngưỡng:** không có chuẩn ngành nào quy định con số 80%; đây là chính sách nội bộ [GIẢ ĐỊNH]. Điểm do mình chấm nên có yếu tố chủ quan; độ an toàn đến từ mốc chấm rõ ràng, luật phủ quyết (Khả thi AI < 3, cờ chưa giải, cờ F8) và quyền chọn của bạn.
 
@@ -210,15 +210,18 @@ Mỗi tập tập trung vào một khoảnh khắc hoặc một bước ngoặt.
 
 ### 3.6 Ví dụ phim 60 giây (minh họa)
 
-| Beat | Chuyện gì thay đổi | Giây | Shot |
-|---|---|---|---|
-| B1 Hook | Chiếc đồng hồ cũ dừng lúc 3:07 | 6 | 2 |
-| B2 Bình thường | Cô lau bụi, nhớ ba | 10 | 3 |
-| B3 Biến cố | Đồng hồ tự chạy | 10 | 3 |
-| B4 Leo thang | Cô đi theo kim đồng hồ vào con hẻm ba hay đi | 16 | 4 |
-| B5 Cao trào | Kim dừng, cô hiểu ba muốn nói gì | 12 | 3 |
-| B6 Kết | Cô đeo đồng hồ lên cổ tay, kim chạy lại | 6 | 2 |
-| **Tổng** | | **60** | **17** |
+| Beat | Hồi | Chuyện gì thay đổi | Giây | Shot |
+|---|---|---|---|---|
+| B1 Hook | 1 | Chiếc đồng hồ cũ dừng lúc 3:07 | 5 | 2 |
+| B2 Bình thường | 1 | Cô lau bụi, nhớ ba | 7 | 2 |
+| B3 Biến cố | 2 | Đồng hồ tự chạy; cô quyết định đi theo kim (giây 12: Break into Two) | 10 | 3 |
+| B4 Leo thang | 2 | Cô theo kim vào con hẻm ba hay đi; cánh cửa cũ mở ra ở giây 30 (midpoint, chiến thắng giả) | 12 | 3 |
+| B5 Mất mát | 2 | Cánh cửa trống, kim dừng, cô mất dấu ba (giây 45: All Is Lost) | 14 | 4 |
+| B6 Cao trào | 3 | Cô hiểu ba muốn nói gì | 8 | 2 |
+| B7 Kết | 3 | Cô đeo đồng hồ lên cổ tay, kim chạy lại | 4 | 1 |
+| **Tổng** | | | **60** | **17** |
+
+Ví dụ đã chỉnh theo ba hồi: Hồi 1 = 12 giây (20%), Hồi 2 = 36 giây (60%), Hồi 3 = 12 giây (20%); midpoint rơi đúng giây 30 (50%).
 
 ### 3.7 Ba hồi và quan hệ với beat (tham chiếu)
 
@@ -240,7 +243,7 @@ Phim → 3 hồi (câu chuyện đi đâu) → beat (mỗi bước đổi gì) �
 
 **Ngoại lệ:** mỗi tập microdrama kết bằng cliffhanger nên không giải quyết trọn trong một tập (cấu trúc tập: Setup 10–15 giây, Development 1–2 phút, Cliffhanger 10–15 giây [ĐÃ KIỂM CHỨNG]). Ba hồi áp dụng cho **cả mùa**, còn tập dùng Hook/Friction/Spike/Button [SUY RA].
 
-**Đề xuất chờ chốt (3 thay đổi):**
+**Đã chốt (3 thay đổi, đã áp dụng vào `gate-1-phat-trien.md` và `gate-1-b2-kich-ban.md`):**
 1. **Bước 1.4:** thêm trường "kiểu cung nhân vật" (thay đổi / phẳng) và gán 7 câu Story Spine vào 3 hồi.
 2. **Bước 1.5:** thêm cột "Hồi" cho mỗi beat, và **thay bảng tỉ lệ cũ** (Hook, Thế giới bình thường 10–15%, Biến cố 10–15%, Leo thang 30–40%, Cao trào 15–25%, Kết 8–12%) bằng đồng hồ ba hồi đã kiểm chứng: **Hồi 1 20–25% · Hồi 2 50–60% · Hồi 3 20–25% · midpoint 50% ±10%**. Bảng cũ là đề xuất ban đầu chưa kiểm chứng, và Hồi 3 của nó dài tới 23–37%.
 3. **Bước 2.4:** thêm kiểm tra thứ 11, "tỉ lệ ba hồi khớp".
