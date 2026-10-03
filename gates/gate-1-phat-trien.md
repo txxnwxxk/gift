@@ -1,6 +1,6 @@
 # Gate 1 – Phát triển: từ ý tưởng thô đến bộ nguyên liệu cho kịch bản
 
-> v0.2 – **quy trình 6 bước / 3 điểm chốt đã được đồng ý.** Các **thông số** trong tài liệu này là đề xuất v1, chờ bạn chốt (xem mục 5). Sau khi thử chạy thật, thông số nào không hợp sẽ được chỉnh.
+> v0.3 – **quy trình 6 bước / 3 điểm chốt đã được đồng ý.** Các **thông số** (thời lượng, ngưỡng đạt, quy mô nhân vật, số beat…) đã được cập nhật và gắn nhãn độ tin cậy tại **`gate-1-thong-so.md`**. **Nếu hai file mâu thuẫn, ưu tiên `gate-1-thong-so.md`.** Các con số cố định trong file này (≤ 180 giây, ngưỡng 70%, ≤ 4 nhân vật…) là bản cũ và sẽ được thay khi nhập bản cuối.
 
 ---
 

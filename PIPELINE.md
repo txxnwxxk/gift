@@ -1,6 +1,6 @@
 # Quy trình làm phim AI – Topview
 
-> v0.5 – **khung 6 Gate và quy trình Gate 1 (6 bước, 3 điểm chốt) đã chốt**. Đang chốt thông số chi tiết của Gate 1 (xem `gates/gate-1-phat-trien.md`). Khi mọi Gate được chốt, toàn bộ sẽ được đóng thành skill.
+> v0.5 – **khung 6 Gate và quy trình Gate 1 (6 bước, 3 điểm chốt) đã chốt**. Đang chốt thông số chi tiết của Gate 1 (xem `gates/gate-1-phat-trien.md` và `gates/gate-1-thong-so.md`). Khi mọi Gate được chốt, toàn bộ sẽ được đóng thành skill.
 
 ## Nguyên tắc đã chốt
 
@@ -16,7 +16,7 @@
 
 | Gate | Bước | Claude làm | Điểm chốt |
 |---|---|---|---|
-| **Gate 1 – Phát triển** | **B1. Ý tưởng → treatment** | 6 bước từ ý tưởng thô đến treatment (xem `gates/gate-1-phat-trien.md`) | Brief, chọn concept, duyệt treatment |
+| **Gate 1 – Phát triển** | **B1. Ý tưởng → treatment** | 6 bước từ ý tưởng thô đến treatment (xem `gates/gate-1-phat-trien.md` và `gates/gate-1-thong-so.md`) | Brief, chọn concept, duyệt treatment |
 | | **B2. Kịch bản** | Kịch bản + bảng bóc tách (nhân vật, bối cảnh, đạo cụ, trang phục) | Chốt kịch bản |
 | **Gate 2 – Thiết kế** | **B3. Visual bible & tài sản** | 3a: 2–3 hướng phong cách (style frame, bảng màu, ánh sáng, ống kính). 3b: sheet nhân vật (xoay 360°, biểu cảm, trang phục), bối cảnh, đạo cụ | 3a: chọn phong cách. 3b: duyệt từng tài sản |
 | | **B4. Giọng & thoại** | Chọn giọng cho từng nhân vật, tạo toàn bộ thoại, đo thời lượng | Duyệt giọng và thoại |
@@ -69,7 +69,7 @@ B3 và B4 có thể chạy song song.
 
 ## Việc để lại cho Gate 3: Bảng chọn công cụ
 
-Chưa quyết ở Gate 1. Gate 3 phải chốt trọn vẹn: model ảnh (ảnh tham chiếu nhân vật, bối cảnh, storyboard) và model video theo từng loại cảnh; độ dài clip tối đa, âm thanh/lipsync, giữ nhất quán, đơn giá credit; từ đó chốt độ dài shot thật. Chi tiết: `gates/gate-1-de-xuat-thong-so-v2.md`, mục 7.
+Chưa quyết ở Gate 1. Gate 3 phải chốt trọn vẹn: model ảnh (ảnh tham chiếu nhân vật, bối cảnh, storyboard) và model video theo từng loại cảnh; độ dài clip tối đa, âm thanh/lipsync, giữ nhất quán, đơn giá credit; từ đó chốt độ dài shot thật. Chi tiết: `gates/gate-1-thong-so.md`, mục 5.
 
 ## Câu hỏi còn mở
 
