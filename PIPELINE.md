@@ -67,6 +67,10 @@ B3 và B4 có thể chạy song song.
 - **Tạo ảnh, video, giọng, nhạc:** cần kết nối công cụ (ví dụ plugin Topview sau khi bạn cho phép cài và đăng nhập OAuth). Khi chưa kết nối, Claude chuẩn bị gói prompt sẵn để dán, bạn bấm tạo và gửi kết quả lại để Claude kiểm tra.
 - **Kiểm tra chất lượng:** Claude xem được ảnh; với video, Claude trích khung hình để kiểm tra.
 
+## Việc để lại cho Gate 3: Bảng chọn công cụ
+
+Chưa quyết ở Gate 1. Gate 3 phải chốt trọn vẹn: model ảnh (ảnh tham chiếu nhân vật, bối cảnh, storyboard) và model video theo từng loại cảnh; độ dài clip tối đa, âm thanh/lipsync, giữ nhất quán, đơn giá credit; từ đó chốt độ dài shot thật. Chi tiết: `gates/gate-1-de-xuat-thong-so-v2.md`, mục 7.
+
 ## Câu hỏi còn mở
 
 1. "Style Transformation" trong khóa học bạn theo làm gì cụ thể?
