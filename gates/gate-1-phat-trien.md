@@ -137,6 +137,7 @@ Từ 1.4 đến 1.6, Claude chạy liền và trình cả ba tài liệu cùng l
 - Khả thi AI < 3 → loại, dù tổng điểm cao (quyền phủ quyết).
 - Còn cờ đỏ chưa có cách giải → loại.
 - Có cờ F8 → loại.
+- **Trượt K1 hoặc K2 → loại khỏi danh sách đề xuất** (K1: điền đủ nhân vật, mục tiêu, trở ngại, cái giá; K2: hợp khán giả và hồ sơ trong brief). Hai kiểm tra này đạt/không đạt, không tính vào điểm.
 - Nếu **0 concept đạt**: quay lại 1.2 tạo 5 concept mới (tối đa **2 lần**). Lần thứ 3 vẫn không đạt thì hỏi bạn.
 
 **Đầu ra:** `P01_G1_1.3_bang_diem_v1.md`: bảng điểm 5 concept + lý do + **đề xuất tối đa 2 concept**.

@@ -19,7 +19,8 @@
 | Số concept | **5** mặc định; **3** nếu bạn yêu cầu |
 | Ngưỡng đạt | **≥ 80% = ĐẠT**; **70–79% = ĐẠT CÓ ĐIỀU KIỆN** (bạn xác nhận rủi ro, mình liệt kê chỗ yếu và cách vá); **< 70% = loại** |
 | Trọng số | Cảm xúc 3 · Khả thi AI 3 · Độc đáo 2 · Rõ ràng 2 · Hình ảnh 2 · Chi phí 1 · Hợp thời lượng 1 |
-| Quy mô nhân vật/bối cảnh | **Phụ thuộc hồ sơ** (con số đang được kiểm chứng, mục 4) |
+| Quy mô nhân vật/bối cảnh | **Theo hồ sơ, chốt theo bảng ở mục 4** (cột "điển hình" và "trần"); con số cụ thể là [SUY RA]/[GIẢ ĐỊNH], hiệu chỉnh sau dự án thử |
+| Hai kiểm tra K1, K2 | **Thêm vào bước 1.3** (đạt/không đạt, không tính điểm); concept trượt K1 hoặc K2 thì không vào danh sách đề xuất |
 | Độ dài shot | Tạm **4 giây [GIẢ ĐỊNH]**, chốt sau ở Gate 3 |
 | "Thử lại" và "vòng sửa" | Hiểu và dùng như mục 6 |
 | Treatment (bước 1.6) | Đồng ý cách làm |
@@ -96,7 +97,7 @@ Mình **dừng lại và hỏi**, không tự chọn. Câu hỏi luôn gồm: h�
 - **Marketability / Audience** (hợp khán giả không): chỉ có ở brief, chưa chấm lúc chọn concept.
 - **Dialogue:** chưa cần ở giai đoạn concept (làm ở kịch bản). **Structure:** đã có ở 1.4–1.5.
 
-**Đề xuất (chờ bạn quyết): thêm 2 kiểm tra đạt/không đạt ở bước 1.3, không tính vào điểm, để lấp hai khoảng trống trên:**
+**Đã chốt: thêm 2 kiểm tra đạt/không đạt ở bước 1.3, không tính vào điểm, để lấp hai khoảng trống trên:**
 - **K1 – Nhân vật, mục tiêu, trở ngại, cái giá:** concept phải điền đủ 4 phần này (tương ứng Character và stakes).
 - **K2 – Khán giả:** concept hợp khán giả và hồ sơ đã chốt trong brief (tương ứng Marketability/Audience).
 
@@ -316,13 +317,28 @@ Mức **4 giây [GIẢ ĐỊNH]** nằm trong dải hiện đại. Ở Gate 3 m�
 
 Làm một bảng tham chiếu cho khoảng 8–10 phim kinh điển và phim ngắn đoạt giải, ghi: thời lượng, thời điểm các beat chính, số nhân vật, số bối cảnh, ASL. Từ đó hiệu chỉnh lại các con số đang là [SUY RA] và [GIẢ ĐỊNH] ở trên. Cần bạn đồng ý trước khi làm, vì việc này tốn nhiều thời gian tra cứu.
 
-## 9. Việc chờ chốt
+## 9. Beat và kịch bản (nền cho bước B2)
 
-- [ ] Hai kiểm tra đạt/không đạt K1, K2 (lấp khoảng trống so với Hollywood)
-- [ ] Làm "Thư viện phim chuẩn" (mục 8)
-- [ ] Bảng quy mô nhân vật/bối cảnh (mục 4) và bảng số beat (mục 3.5)
+**Beat sheet là bản đồ của kịch bản.** Chuỗi chuẩn: logline → beat sheet → treatment → danh sách cảnh → kịch bản [ĐÃ KIỂM CHỨNG: Storyflow, Save the Cat, Jami Gold].
+
+- Beat **không phải** cảnh. Một cảnh có thể chứa nhiều beat; một beat lớn có thể trải qua nhiều cảnh (một "sequence" 3–4 cảnh). Beat sheet chỉ lấy ra những cảnh quan trọng nhất, không liệt kê hết mọi cảnh [ĐÃ KIỂM CHỨNG].
+- Phim dài có khoảng 40–60 beat lớn, 40–60 cảnh, gom trong 8–12 sequence [ĐÃ KIỂM CHỨNG: một nguồn]. Phim ngắn của mình có ít beat hơn rất nhiều (mục 3.5).
+- Định dạng kịch bản chuẩn có 6 thành phần: **tiêu đề cảnh** (NỘI/NGOẠI – địa điểm – thời gian), **hành động** (thì hiện tại, chỉ tả cái nhìn thấy và nghe thấy), **tên nhân vật**, **thoại**, **chú thích diễn xuất** và **chuyển cảnh** [ĐÃ KIỂM CHỨNG: StudioBinder, Final Draft, MasterClass].
+- **1 trang ≈ 1 phút** là quy tắc trung bình, không chính xác: trang toàn thoại ngắn hơn một phút, trang nhiều hành động dài hơn [ĐÃ KIỂM CHỨNG: Final Draft, No Film School]. Với phim AI nghiêng về hình ảnh và voice-over, mình dùng ≈ 1 trang/phút làm ước lượng [SUY RA].
+
+**Đề xuất cho B2 (xem trước, chờ phân tích) [ĐỀ XUẤT]:**
+1. Mỗi **cảnh** ghi mã beat, số giây và tài sản (nhân vật, bối cảnh, đạo cụ). Đây là cầu nối sang Gate 2 và Gate 3.
+2. Kịch bản chỉ ghi cảnh, hành động nhìn thấy được và thoại/voice-over. **Góc máy để Gate 3** (storyboard).
+3. Tổng giây các cảnh phải khớp tổng giây beat sheet (±5%).
+4. Số cảnh ≈ số bối cảnh × số lần đổi thời gian; phim 60 giây thường 2–3 cảnh.
+
+## 10. Việc chờ chốt
+
+- [ ] Bảng số beat theo hồ sơ (mục 3.5)
+- [ ] Làm "Thư viện phim chuẩn" (mục 8), và nếu làm thì bản nhẹ hay đầy đủ
 - [ ] Quy ước chung và 8 luật; bộ 9 nguyên liệu bàn giao
 - [ ] "Style Transformation" là gì; định dạng chính; công cụ chính
+- [ ] Phân tích B2 Kịch bản (mục 9 là bản xem trước)
 
 ## Nguồn
 - Hollywood coverage: https://glcoverage.com/2024/11/21/hollywood-screenplay-criteria/ · https://screencraft.org/blog/script-coverage-ratings-explained/
@@ -334,4 +350,5 @@ Làm một bảng tham chiếu cho khoảng 8–10 phim kinh điển và phim ng
 - Microdrama: https://screenburn.studio/learn/microdrama-structure · https://filmustage.com/blog/how-to-write-a-vertical-drama-script/ · https://invideo.io/blog/ai-micro-drama-hooks-cliffhangers/ · https://en.wikipedia.org/wiki/Microdrama
 - Phim ngắn: https://www.masterclass.com/articles/how-to-write-a-short-film-step-by-step-guide · https://screencraft.org/blog/3-major-differences-short-and-feature-scripts/ · https://www.studiobinder.com/blog/pixar-shorts/ · https://disney.fandom.com/wiki/Paperman · https://pixar.fandom.com/wiki/Bao · https://www.imdb.com/title/tt3605002/
 - ASL: https://storyality.wordpress.com/2013/08/23/storyality-71b-cinemetrics/ · https://cinej.pitt.edu/ojs/cinej/article/view/50/195
+- Beat và kịch bản: https://savethecat.com/about-the-beats/a-writers-guide-to-beats-and-beat-sheets · https://jamigold.com/2015/10/developing-our-story-from-beat-sheet-to-scene-list/ · https://www.studiobinder.com/blog/brilliant-script-screenplay-format/ · https://www.finaldraft.com/blog/does-one-page-equal-one-minute-of-screen-time · https://nofilmschool.com/one-page-equals-one-minute
 - Nền tảng, liên hoan, quảng cáo: https://piktochart.com/blog/how-long-youtube-shorts/ · https://www.socialcal.app/blog/how-long-can-an-instagram-video-be · https://reap.video/blog/best-video-length-youtube-shorts-reels-tiktok · https://aif.runwayml.com/submission · https://stephenfollows.com/p/how-long-is-too-long-for-a-film-festival-film · https://www.indieshortsmag.com/articles/short-film/2026/08/short-film-definition-length-types-examples/ · https://benly.ai/learn/ad-creative/optimal-video-ad-length · https://www.krumzi.com/blog/how-long-should-a-video-ad-be-ideal-lengths-by-platform-2026
