@@ -220,6 +220,31 @@ Mỗi tập tập trung vào một khoảnh khắc hoặc một bước ngoặt.
 | B6 Kết | Cô đeo đồng hồ lên cổ tay, kim chạy lại | 6 | 2 |
 | **Tổng** | | **60** | **17** |
 
+### 3.7 Ba hồi và quan hệ với beat (tham chiếu)
+
+**Cấu trúc ba hồi là đúng** và là khung lớn nhất: **Hồi 1 Mở đầu (setup)**: nhân vật, bối cảnh, vấn đề ban đầu; kết thúc bằng plot point 1 đẩy truyện sang hướng mới. **Hồi 2 Xung đột (confrontation)**: đối mặt vấn đề, hết trở ngại này đến trở ngại khác; kết thúc bằng plot point 2, lúc gần như không thể thắng. **Hồi 3 Kết (resolution)**: vấn đề được giải quyết [ĐÃ KIỂM CHỨNG: Syd Field; Storyflow, Jim Soto].
+
+**Tỉ lệ:** Syd Field **25/50/25**; nhiều phim hiện đại **20/60/20**, trùng với Save the Cat (Break into Two ở 20%, Break into Three ở 80%). Tài liệu cho biết tỉ lệ này giữ nguyên dù kịch bản 125 trang hay phim 90 giây [ĐÃ KIỂM CHỨNG].
+
+**Lưu ý:** "nhân vật thay đổi" là phổ biến nhưng **không bắt buộc**. Có kiểu **cung phẳng** (flat arc): nhân vật giữ nguyên niềm tin và đi làm thay đổi người khác hoặc thế giới (ví dụ Indiana Jones, Forrest Gump) [ĐÃ KIỂM CHỨNG].
+
+**Ba hồi, Story Spine, beat, cảnh và shot là cùng một cấu trúc ở các mức phóng to khác nhau:**
+```
+Phim → 3 hồi (câu chuyện đi đâu) → beat (mỗi bước đổi gì) → cảnh (ở đâu, lúc nào) → shot (máy quay thấy gì)
+```
+| Hồi | Việc | Story Spine (Pixar) | Beat chính (Save the Cat) | Vị trí |
+|---|---|---|---|---|
+| 1 Mở đầu | Nhân vật, bối cảnh, vấn đề ban đầu | Ngày xưa… / Mỗi ngày… / Cho đến một ngày… | Opening Image, Set-up, Catalyst, Break into Two | 0–20% (Field: 25%) |
+| 2 Xung đột | Đối mặt vấn đề, ra khỏi vùng an toàn | Vì thế… / Vì thế… | Fun and Games, **Midpoint**, Bad Guys Close In, All Is Lost | 20–80% (Field: 25–75%) |
+| 3 Kết | Giải quyết vấn đề, nhân vật thay đổi (hoặc thế giới thay đổi) | Cho đến cuối cùng… / Kể từ đó… | Break into Three, Finale, Final Image | 80–100% (Field: 75–100%) |
+
+**Ngoại lệ:** mỗi tập microdrama kết bằng cliffhanger nên không giải quyết trọn trong một tập (cấu trúc tập: Setup 10–15 giây, Development 1–2 phút, Cliffhanger 10–15 giây [ĐÃ KIỂM CHỨNG]). Ba hồi áp dụng cho **cả mùa**, còn tập dùng Hook/Friction/Spike/Button [SUY RA].
+
+**Đề xuất chờ chốt (3 thay đổi):**
+1. **Bước 1.4:** thêm trường "kiểu cung nhân vật" (thay đổi / phẳng) và gán 7 câu Story Spine vào 3 hồi.
+2. **Bước 1.5:** thêm cột "Hồi" cho mỗi beat, và **thay bảng tỉ lệ cũ** (Hook, Thế giới bình thường 10–15%, Biến cố 10–15%, Leo thang 30–40%, Cao trào 15–25%, Kết 8–12%) bằng đồng hồ ba hồi đã kiểm chứng: **Hồi 1 20–25% · Hồi 2 50–60% · Hồi 3 20–25% · midpoint 50% ±10%**. Bảng cũ là đề xuất ban đầu chưa kiểm chứng, và Hồi 3 của nó dài tới 23–37%.
+3. **Bước 2.4:** thêm kiểm tra thứ 11, "tỉ lệ ba hồi khớp".
+
 ---
 
 ## 4. Quy mô nhân vật và bối cảnh theo hồ sơ
@@ -350,5 +375,7 @@ Mức **4 giây [GIẢ ĐỊNH]** nằm trong dải hiện đại. Ở Gate 3 m�
 - Microdrama: https://screenburn.studio/learn/microdrama-structure · https://filmustage.com/blog/how-to-write-a-vertical-drama-script/ · https://invideo.io/blog/ai-micro-drama-hooks-cliffhangers/ · https://en.wikipedia.org/wiki/Microdrama
 - Phim ngắn: https://www.masterclass.com/articles/how-to-write-a-short-film-step-by-step-guide · https://screencraft.org/blog/3-major-differences-short-and-feature-scripts/ · https://www.studiobinder.com/blog/pixar-shorts/ · https://disney.fandom.com/wiki/Paperman · https://pixar.fandom.com/wiki/Bao · https://www.imdb.com/title/tt3605002/
 - ASL: https://storyality.wordpress.com/2013/08/23/storyality-71b-cinemetrics/ · https://cinej.pitt.edu/ojs/cinej/article/view/50/195
+- Ba hồi: https://thepitchmaster.com/syd-fields-paradigm-explained-plot-points-pinches-and-the-midpoint/ · https://storyflow.so/blog/what-is-three-act-structure-complete-guide · https://files.commons.gc.cuny.edu/wp-content/blogs.dir/4120/files/2018/08/Three-Act-Structure.Jim-Soto-glosses-SYD_FIELD.pdf · https://www.soundstripe.com/blogs/screenplay-structure · https://www.studiobinder.com/blog/how-many-acts-are-in-a-movie/
+- Cung nhân vật phẳng: https://www.helpingwritersbecomeauthors.com/archetype-character-arcs-pt-15-introduction-to-the-6-flat-archetypes/ · https://screencraft.org/blog/understanding-the-3-types-of-character-arcs/
 - Beat và kịch bản: https://savethecat.com/about-the-beats/a-writers-guide-to-beats-and-beat-sheets · https://jamigold.com/2015/10/developing-our-story-from-beat-sheet-to-scene-list/ · https://www.studiobinder.com/blog/brilliant-script-screenplay-format/ · https://www.finaldraft.com/blog/does-one-page-equal-one-minute-of-screen-time · https://nofilmschool.com/one-page-equals-one-minute
 - Nền tảng, liên hoan, quảng cáo: https://piktochart.com/blog/how-long-youtube-shorts/ · https://www.socialcal.app/blog/how-long-can-an-instagram-video-be · https://reap.video/blog/best-video-length-youtube-shorts-reels-tiktok · https://aif.runwayml.com/submission · https://stephenfollows.com/p/how-long-is-too-long-for-a-film-festival-film · https://www.indieshortsmag.com/articles/short-film/2026/08/short-film-definition-length-types-examples/ · https://benly.ai/learn/ad-creative/optimal-video-ad-length · https://www.krumzi.com/blog/how-long-should-a-video-ad-be-ideal-lengths-by-platform-2026
