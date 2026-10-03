@@ -26,10 +26,31 @@ Chín nguyên liệu bàn giao từ B1: brief, ý gốc + "giữ nguyên", lõi 
 | Đoạn hành động **tối đa 3–4 dòng**; không chỉ dẫn máy quay hay chuyển cảnh trong kịch bản (việc của đạo diễn) | [ĐÃ KIỂM CHỨNG] |
 | Cho video AI: mỗi dòng **một chủ thể, một hành động chính (một động từ)**; cảm xúc gắn với biểu cảm hoặc cử chỉ nhìn thấy được | [ĐÃ KIỂM CHỨNG] (blog của các nhà cung cấp công cụ, độ tin cậy trung bình) |
 | **1 trang ≈ 1 phút** (trung bình, không chính xác) | [ĐÃ KIỂM CHỨNG: Final Draft, No Film School] |
-| Tiếng Việt đọc khoảng **5,2 âm tiết/giây**; voice-over tiếng Anh khoảng 150 từ/phút (tài liệu 110–130, quảng cáo 140–190) | [ĐÃ KIỂM CHỨNG: Pellegrino 2011; Bunny Studio] |
-| Thoại điện ảnh có nhịp nghỉ: dùng **4,5 âm tiết/giây** | [SUY RA] từ 5,2 trừ khoảng nghỉ; hiệu chỉnh ở Gate 2 bằng giọng thật |
+| Tốc độ **đọc văn bản** trong thí nghiệm: tiếng Việt 5,22 · tiếng Anh 6,19 · tiếng Nhật 7,84 âm tiết/giây. Voice-over tiếng Anh trung bình khoảng 150 từ/phút (tài liệu 110–130, quảng cáo 140–190) | [ĐÃ KIỂM CHỨNG: Pellegrino 2011; Bunny Studio] |
+| Thoại thật có nhịp nghỉ và diễn xuất nên chậm hơn đọc văn bản: tiếng Anh nói thường khoảng 4 âm tiết/giây (khoảng 3,3–5,9) so với 6,19, tức **hệ số 0,65** | [SUY RA] từ hai số đã kiểm chứng |
 
-**Cách đếm tiếng Việt:** 1 tiếng (chữ cách nhau bằng khoảng trắng) = 1 âm tiết. Ví dụ "Ba ơi, đồng hồ chạy lại rồi." = 7 tiếng ≈ 1,6 giây.
+### 3.1 Ngôn ngữ của phim quyết định cách tính lời
+
+Mỗi ngôn ngữ có tốc độ và đơn vị đếm khác nhau, nên **ngôn ngữ thoại/voice-over phải được chốt ở brief (bước 1.1)** và là đầu vào bắt buộc của bước 2.2. Công thức chung:
+
+**Ngân sách lời của cảnh = số giây có lời × tốc độ của ngôn ngữ (đơn vị/giây).**
+
+| Ngôn ngữ | Đơn vị đếm | Tốc độ mặc định (đã tính nhịp nghỉ) | Cơ sở | Độ tin cậy |
+|---|---|---|---|---|
+| Tiếng Việt | **tiếng** (chữ cách nhau bằng khoảng trắng; 1 tiếng = 1 âm tiết) | **3,4 tiếng/giây** (≈ 204 tiếng/phút) | 5,22 × 0,65; cùng bậc với khoảng 200–240 từ/phút của một nguồn tiếng Việt (độ tin cậy thấp) | [SUY RA] |
+| Tiếng Anh | **từ** | **2,5 từ/giây** (voice-over, 150 từ/phút); **2,2 từ/giây** cho thoại phim (130 từ/phút) | Đo trực tiếp | [ĐÃ KIỂM CHỨNG] |
+| Tiếng Nhật | **âm tiết/mora**, đếm theo kana khi đọc; chữ Hán cần bản đọc | khoảng **5,1/giây** | 7,84 × 0,65 (một nguồn khác nêu 8,03) | [SUY RA] |
+| Tiếng Hàn | **âm tiết** (mỗi khối chữ Hangul = 1 âm tiết) | **chưa có số đáng tin** | Chỉ biết thứ hạng: nhanh hơn tiếng Trung, chậm hơn tiếng Nhật | thứ hạng [ĐÃ KIỂM CHỨNG]; số: đo mẫu |
+| Tiếng Tây Ban Nha | từ hoặc âm tiết | **chưa có số đáng tin** | Một nguồn thứ cấp xếp vào nhóm nói nhanh (khoảng 260 từ/phút) nhưng độ tin cậy thấp nên không dùng | đo mẫu |
+| Ngôn ngữ khác | tùy ngôn ngữ | đo mẫu | – | đo mẫu |
+
+Ví dụ: "Ba ơi, đồng hồ chạy lại rồi." = 7 tiếng ≈ 2,1 giây.
+
+**Đo mẫu theo giọng thật:** tốc độ ở bảng chỉ để lập kế hoạch trước khi chọn giọng. Sau khi chọn giọng ở Gate 2 (B4), tạo một đoạn mẫu 20–30 giây bằng chính giọng đó, đo tốc độ thật (đơn vị/giây) và tính lại ngân sách của mọi cảnh. Cảnh nào vượt thì quay lại bước 2.3 cắt lời (tính là vòng sửa). Đây là hiệu chỉnh theo giọng cụ thể, không phải tra cứu lại thông số chuẩn (L9).
+
+**Phát hành nhiều ngôn ngữ:** bản dịch có thể dài hơn bản gốc. Từ tiếng Anh sang tiếng Tây Ban Nha hoặc Pháp thường giãn 20–25%, sang tiếng Đức tới 35%, còn tiếng Trung, Hàn, Nhật thường co lại [ĐÃ KIỂM CHỨNG: Eriksen]. Chưa có số cho tiếng Việt. [ĐỀ XUẤT] khi phát hành nhiều ngôn ngữ, chừa dư 25% thời lượng có lời cho bản dài nhất.
+
+**Công cụ theo ngôn ngữ (xử lý ở Gate 2 và 3):** giọng AI của ElevenLabs hỗ trợ tiếng Việt, Tây Ban Nha, Nhật, Hàn (Eleven v3: 74 ngôn ngữ; v4: trên 90) [ĐÃ KIỂM CHỨNG]. Lipsync của Kling 3.0 hỗ trợ 8 ngôn ngữ nhưng nguồn không nêu danh sách, phải kiểm tra [CHƯA RÕ].
 
 ---
 
@@ -63,12 +84,14 @@ Chín nguyên liệu bàn giao từ B1: brief, ý gốc + "giữ nguyên", lõi 
 
 **Mục đích:** thoại và voice-over quyết định độ dài shot và khẩu hình, nên phải tính trước khi viết.
 
-**Claude làm (nội bộ):** với mỗi cảnh quyết định ai nói, loại lời (thoại / voice-over / không lời), số câu, và số giây có lời; từ đó tính trần âm tiết.
+**Đầu vào bắt buộc:** ngôn ngữ thoại/voice-over đã chốt ở brief (mục 3.1). Brief chưa có thì mình hỏi trước, không tự đoán.
+
+**Claude làm (nội bộ):** với mỗi cảnh quyết định ai nói, loại lời (thoại / voice-over / không lời), số câu, và số giây có lời; từ đó tính ngân sách lời theo tốc độ của ngôn ngữ.
 
 **Luật và giới hạn:**
-- **Trần âm tiết của cảnh = số giây có lời × 4,5** [SUY RA].
+- **Ngân sách lời của cảnh = số giây có lời × tốc độ của ngôn ngữ** (bảng 3.1). Tiếng Việt mặc định 3,4 tiếng/giây [SUY RA].
 - **Tỉ lệ giây có lời trên tổng thời lượng:** hồ sơ B và D ≤ **70%**; hồ sơ A, C, E, F ≤ **50%** [GIẢ ĐỊNH].
-- Mỗi câu thoại ≤ **20 tiếng** [GIẢ ĐỊNH].
+- **Mỗi câu thoại ≤ 5 giây khi đọc** (khoảng 17 tiếng với tiếng Việt, khoảng 12 từ với tiếng Anh). Tính theo giây để dùng được cho mọi ngôn ngữ [SUY RA từ clip 8 giây trừ khoảng nghỉ].
 - Tối đa **2 lượt thoại qua lại liên tiếp** (cách giải của cờ F2).
 - Số nhân vật có thoại ≤ trần hồ sơ.
 - Mặc định **ưu tiên voice-over hoặc không lời** nếu brief không yêu cầu thoại, vì thoại nhiều người là cờ F2 [SUY RA].
@@ -76,7 +99,7 @@ Chín nguyên liệu bàn giao từ B1: brief, ý gốc + "giữ nguyên", lõi 
 
 **Đầu ra:** `P01_G1_2.2_ngan_sach_loi_v1.md` (bảng theo cảnh).
 
-**Điều kiện đạt:** mọi cảnh có giây có lời ≤ giới hạn tỉ lệ · số câu và âm tiết ≤ trần · nhân vật có thoại ≤ trần.
+**Điều kiện đạt:** ngôn ngữ đã chốt · mọi cảnh có giây có lời ≤ giới hạn tỉ lệ · lời mỗi cảnh ≤ ngân sách · mỗi câu ≤ 5 giây · nhân vật có thoại ≤ trần.
 
 ### Bước 2.3 – Viết kịch bản
 
@@ -107,7 +130,7 @@ Kim giây giật một nhịp. Rồi chạy.
 CÔ (VO)
 Ba ơi, đồng hồ chạy lại rồi.
 ```
-Cảnh này có 6 dòng hành động cho 22 giây (≈ 3,7 giây mỗi dòng, trong dải ±25% của giả định 4 giây/shot) và 1 câu 7 tiếng ≈ 1,6 giây.
+Cảnh này có 6 dòng hành động cho 22 giây (≈ 3,7 giây mỗi dòng, trong dải ±25% của giả định 4 giây/shot) và 1 câu 7 tiếng ≈ 2,1 giây (tiếng Việt, 3,4 tiếng/giây).
 
 ### Bước 2.4 – Kiểm tra và bóc tách  ▸ ĐIỂM CHỐT 5
 
@@ -116,7 +139,7 @@ Cảnh này có 6 dòng hành động cho 22 giây (≈ 3,7 giây mỗi dòng, t
 2. Nhân vật có sheet, nhân vật có thoại, bối cảnh trong trần hồ sơ.
 3. Mỗi cờ đỏ F1–F8 đã có cách giải được áp dụng trong văn bản; F8 = 0.
 4. Mỗi dòng hành động lên hình được: không câu nào là nội tâm.
-5. Âm tiết lời mỗi cảnh ≤ giây có lời × 4,5; tỉ lệ giây có lời trong giới hạn.
+5. Lời mỗi cảnh ≤ giây có lời × tốc độ của ngôn ngữ (tạm, đo lại ở Gate 2); mỗi câu ≤ 5 giây; tỉ lệ giây có lời trong giới hạn.
 6. Mỗi cảnh đổi một giá trị.
 7. Các yếu tố "giữ nguyên" còn đủ; logline và thông điệp thể hiện được.
 8. Yêu cầu riêng của hồ sơ (microdrama, kinh dị, quảng cáo) đã đạt.
@@ -161,11 +184,12 @@ Cảnh này có 6 dòng hành động cho 22 giây (≈ 3,7 giây mỗi dòng, t
 | Quy tắc dòng hành động (hiện tại, thấy/nghe, ≤ 3–4 dòng, không góc máy) | [ĐÃ KIỂM CHỨNG] |
 | Một chủ thể, một hành động mỗi dòng | [ĐÃ KIỂM CHỨNG] (nguồn nhà cung cấp công cụ) |
 | 1 trang ≈ 1 phút | [ĐÃ KIỂM CHỨNG] (trung bình) |
-| Tốc độ đọc tiếng Việt 5,2 âm tiết/giây | [ĐÃ KIỂM CHỨNG] |
-| 4,5 âm tiết/giây cho thoại điện ảnh | [SUY RA có cơ sở]: 5,2 × (130 ÷ 150) |
+| Tốc độ đọc văn bản: Việt 5,22 · Anh 6,19 · Nhật 7,84 âm tiết/giây | [ĐÃ KIỂM CHỨNG] |
+| Hệ số nhịp nghỉ 0,65 (4 ÷ 6,19) và tốc độ thoại tiếng Việt 3,4 tiếng/giây | [SUY RA] |
+| Tốc độ tiếng Hàn, Tây Ban Nha | Chưa có số đáng tin; đo mẫu ở Gate 2 |
 | Số cảnh ≤ số beat | Lập luận logic từ định nghĩa |
 | Tỉ lệ giây có lời: 50% (phim) có nguồn; 70% quảng cáo suy ra; 70% microdrama giả định | Xem mục 6.1 |
-| Câu thoại ≤ 20 tiếng | [SUY RA] từ giới hạn clip 8–10 giây |
+| Mỗi câu thoại ≤ 5 giây | [SUY RA] từ giới hạn clip 8–10 giây |
 | Độ dài kịch bản ±25% | [SUY RA] |
 | Kiểm tra số dòng hành động ≈ giây ÷ 4 (±25%) | [SUY RA] |
 
@@ -173,16 +197,18 @@ Cảnh này có 6 dòng hành động cho 22 giây (≈ 3,7 giây mỗi dòng, t
 
 Khi viết bản đầu, phần lớn các con số này **chưa được dẫn nguồn**. Sau khi tra:
 
+**Sửa lỗi:** bản đầu dùng trần 4,5 âm tiết/giây, tính bằng 5,2 × (130 ÷ 150). Cách tính đó sai nền: 5,2 là tốc độ đọc văn bản trong thí nghiệm, còn 130 và 150 là hai tốc độ đã có nhịp nghỉ, nên tỉ lệ giữa chúng không áp dụng được cho 5,2. Con số đúng hơn là 5,22 × 0,65 = 3,4 tiếng/giây, thấp hơn khoảng 24%.
+
 | Con số | Nguồn / cách suy ra | Độ tin cậy |
 |---|---|---|
-| Đọc tiếng Việt 5,2 âm tiết/giây | Pellegrino 2011 | [ĐÃ KIỂM CHỨNG] |
-| **Trần 4,5 âm tiết/giây** | 5,2 × (130 ÷ 150). 130 từ/phút là nhịp thoại của phim chính kịch hoặc trầm; 150 từ/phút là nhịp đọc voice-over trung bình (cả hai đã kiểm chứng) | [SUY RA có cơ sở] |
+| Đọc văn bản: Việt 5,22 · Anh 6,19 · Nhật 7,84 âm tiết/giây | Pellegrino 2011 | [ĐÃ KIỂM CHỨNG] |
+| **Tốc độ thoại tiếng Việt 3,4 tiếng/giây** | 5,22 × 0,65. Hệ số 0,65 = tiếng Anh nói thường khoảng 4 âm tiết/giây ÷ 6,19 khi đọc văn bản | [SUY RA] |
 | **Giây có lời ≤ 50%** (hồ sơ A, C, E, F) | Trung bình thoại chiếm dưới 50% thời lượng phim (năm 1940: 60%; năm 2005: 35,6%); phim dài thường 40–60% | [ĐÃ KIỂM CHỨNG trung bình], dùng làm trần |
 | Kinh dị ≤ 35% (đề xuất mới) | Kinh dị là thể loại ít lời nhất (khoảng 6.243 từ thoại mỗi phim, so với 10.289 của phim hình sự) | [SUY RA] |
 | **Giây có lời ≤ 70%** (hồ sơ B quảng cáo) | 30 giây ≈ 60–75 từ ở 2,5 từ/giây; hình sản phẩm, logo, phản ứng có thể chiếm khoảng 1/3 thời lượng mà không có lời | [SUY RA] |
 | Giây có lời ≤ 70% (hồ sơ D microdrama) | **Chưa có nguồn trực tiếp.** Nguồn chỉ nêu tập 90 giây ≈ 400–600 từ cả hành động lẫn thoại, và tập 60 giây ≈ 120–150 từ | [GIẢ ĐỊNH] |
-| **Câu thoại ≤ 20 tiếng** | 20 ÷ 4,5 ≈ 4,4 giây; vừa trong clip 8 giây (Veo 3.1) và 10 giây (Kling 3.0), còn chỗ cho khoảng nghỉ | [SUY RA] từ giới hạn clip đã kiểm chứng |
-| Microdrama: câu ≤ 12 từ (≈ 15 tiếng) | Hướng dẫn viết microdrama: dưới 12 từ mỗi câu, mỗi lượt nói tối đa 2 dòng, hành động mỗi beat ≤ 7 từ, 3–5 beat hình ảnh mỗi tập | [ĐÃ KIỂM CHỨNG] hướng dẫn từ blog, độ tin cậy trung bình |
+| **Mỗi câu thoại ≤ 5 giây** | Clip dài 8 giây (Veo 3.1) hoặc 10 giây (Kling 3.0), trừ khoảng 3 giây cho nghỉ và phản ứng. Tính theo giây để dùng cho mọi ngôn ngữ (≈ 17 tiếng Việt, ≈ 12 từ Anh) | [SUY RA] từ giới hạn clip đã kiểm chứng |
+| Microdrama: câu dưới 12 từ | Hướng dẫn viết microdrama: dưới 12 từ mỗi câu, mỗi lượt nói tối đa 2 dòng, hành động mỗi beat ≤ 7 từ, 3–5 beat hình ảnh mỗi tập. 12 từ tiếng Anh ≈ 4,8 giây nên khớp với trần 5 giây | [ĐÃ KIỂM CHỨNG] hướng dẫn từ blog, độ tin cậy trung bình |
 | Tối đa 2 lượt thoại qua lại | Cách giải do mình đặt cho cờ F2 | [GIẢ ĐỊNH] |
 | Mặc định ưu tiên voice-over | Cờ F2; nghiên cứu cho biết hệ thống tạo truyện bằng AI còn thiếu tương tác và đối thoại giữa các nhân vật | [SUY RA] |
 | **Cách chia giữa voice-over và thoại** | **Chưa có con số nào.** Hiện chỉ có mặc định định tính ở dòng trên | – |
@@ -191,12 +217,12 @@ Khi viết bản đầu, phần lớn các con số này **chưa được dẫn 
 - Kling 3.0 cải thiện lipsync cho 8 ngôn ngữ, nhưng nguồn **không nói có tiếng Việt hay không**. Phải kiểm tra trước khi chọn làm thoại tiếng Việt.
 - Theo các nguồn tìm được, **Sora 2 đã ngừng** (ứng dụng ngừng ngày 26/4/2026, API đóng ngày 24/9/2026). Không dựa vào nó khi chọn công cụ.
 
-**Đề xuất điều chỉnh (chờ chốt):** (1) thêm trần giây có lời ≤ 35% cho kinh dị; (2) microdrama dùng trần câu thoại ≤ 15 tiếng, các hồ sơ khác giữ 20 tiếng; (3) cách chia voice-over/thoại theo hồ sơ [GIẢ ĐỊNH]: quảng cáo thiên về voice-over, microdrama thiên về thoại, phim cảm xúc để voice-over ở mức tối thiểu.
+**Đề xuất điều chỉnh (chờ chốt):** (1) thêm trần giây có lời ≤ 35% cho kinh dị; (2) cách chia voice-over/thoại theo hồ sơ [GIẢ ĐỊNH]: quảng cáo thiên về voice-over, microdrama thiên về thoại, phim cảm xúc để voice-over ở mức tối thiểu; (3) **đưa ngôn ngữ thoại/voice-over thành trường bắt buộc của brief** (mục 3.1).
 
 ## 7. Cần bạn chốt
 
 - [ ] Cấu trúc B2: 4 bước, 2 điểm chốt (CHỐT 4 sau danh sách cảnh, CHỐT 5 sau kiểm tra và bóc tách)
-- [ ] Ngân sách lời nói (2.2): trần 4,5 âm tiết/giây, tỉ lệ giây có lời, câu thoại ≤ 20 tiếng
+- [ ] Ngân sách lời nói (2.2): tính theo ngôn ngữ (mục 3.1), tỉ lệ giây có lời, mỗi câu ≤ 5 giây, đo mẫu giọng ở Gate 2
 - [ ] Mặc định ưu tiên voice-over hoặc không lời khi brief không yêu cầu thoại
 - [ ] Kịch bản không có góc máy (để Gate 3)
 - [ ] Danh sách 11 kiểm tra ở 2.4 và danh sách bàn giao
@@ -211,3 +237,6 @@ Khi viết bản đầu, phần lớn các con số này **chưa được dẫn 
 - Quảng cáo và microdrama: https://www.screenweaver.ai/blog/commercial-script-length-timing · https://robertstarling.com/how-many-words-fit-in-a-30-second-commercial-a-voiceover-script-timing-guide/ · https://www.screenweaver.ai/blog/short-drama-script-format · https://www.axisaistudios.com/blog/script-structure-for-vertical-dramas-episode-by-episode-guide
 - Độ dài clip và lipsync: https://wavespeed.ai/blog/posts/seedance-2-0-vs-kling-3-0-sora-2-veo-3-1-video-generation-comparison-2026/ · https://aimlapi.com/blog/best-ai-video-generators-2026-veo-3-1-kling-sora-2-seedance-more-compared
 - AI thiếu đối thoại giữa nhân vật: https://arxiv.org/pdf/2508.08487
+- Tốc độ nói theo ngôn ngữ: https://en.wikipedia.org/wiki/Speech_tempo · https://www.sciencedirect.com/science/article/abs/pii/S0379073815000432 · https://timviec365.vn/blog/toc-do-doc-trung-binh-cua-nguoi-viet-nam-new15516.html
+- Bản dịch giãn hoặc co: https://eriksen.com/language/text-expansion/
+- Giọng AI theo ngôn ngữ: https://elevenlabs.io/docs/overview/capabilities/text-to-speech · https://elevenlabs.io/blog/introducing-vietnamese-norwegian-and-hungarian

@@ -69,6 +69,10 @@ B3 và B4 có thể chạy song song.
 - **Tạo ảnh, video, giọng, nhạc:** cần kết nối công cụ (ví dụ plugin Topview sau khi bạn cho phép cài và đăng nhập OAuth). Khi chưa kết nối, Claude chuẩn bị gói prompt sẵn để dán, bạn bấm tạo và gửi kết quả lại để Claude kiểm tra.
 - **Kiểm tra chất lượng:** Claude xem được ảnh; với video, Claude trích khung hình để kiểm tra.
 
+## Việc để lại cho Gate 2: đo tốc độ giọng thật
+
+Sau khi chọn giọng ở B4, tạo đoạn mẫu 20–30 giây bằng chính giọng đó, đo tốc độ thật (đơn vị/giây của ngôn ngữ phim) và tính lại ngân sách lời của mọi cảnh; cảnh nào vượt thì quay lại bước 2.3 cắt lời. Tiếng Hàn và tiếng Tây Ban Nha chưa có số tốc độ đáng tin nên bắt buộc đo mẫu. Chi tiết: `gates/gate-1-b2-kich-ban.md`, mục 3.1.
+
 ## Việc để lại cho Gate 3: Bảng chọn công cụ
 
 Chưa quyết ở Gate 1. Gate 3 phải chốt trọn vẹn: model ảnh (ảnh tham chiếu nhân vật, bối cảnh, storyboard) và model video theo từng loại cảnh; độ dài clip tối đa, âm thanh/lipsync, giữ nhất quán, đơn giá credit; từ đó chốt độ dài shot thật. Chi tiết: `gates/gate-1-thong-so.md`, mục 5.

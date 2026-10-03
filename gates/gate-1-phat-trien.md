@@ -66,7 +66,7 @@ Từ 1.4 đến 1.6, Claude chạy liền và trình cả ba tài liệu cùng l
 | Mục đích | liên hoan / kênh / quảng cáo / portfolio / khác | portfolio | – |
 | Tỉ lệ khung | 16:9 · 2.39:1 · 9:16 | 16:9 | **Khóa tại đây.** Đổi sau này là làm lại từ Gate 3 |
 | Thời lượng | 30–180 giây | 60 giây | Giới hạn cứng v1: **≤ 180 giây**. Dài hơn thì chia chương |
-| Khán giả & ngôn ngữ | ngôn ngữ thoại: Việt / Anh / không lời / voice-over; nhóm tuổi | voice-over hoặc không lời | Ít thoại thì ít rủi ro lipsync. Đây là mặc định, không phải bắt buộc |
+| Khán giả & ngôn ngữ | **ngôn ngữ thoại/voice-over (bắt buộc chọn)**: Việt / Anh / Tây Ban Nha / Nhật / Hàn / khác / không lời; nếu phát hành nhiều ngôn ngữ thì ghi ngôn ngữ gốc và danh sách bản địa hóa; kiểu lời: thoại / voice-over / không lời; nhóm tuổi | kiểu lời: voice-over hoặc không lời. **Ngôn ngữ không có mặc định: bạn không nói thì mình hỏi** | Ngôn ngữ quyết định cách đếm và tốc độ đọc ở bước 2.2 (đổi ngôn ngữ sau này là tính lại ngân sách lời). Ít thoại thì ít rủi ro lipsync |
 | Bắt buộc / cấm | danh sách tự do | trống | Mỗi mục "cấm" là điều kiện loại ở 1.2 và 1.3 |
 | Trần ngân sách | số credit hoặc USD, hoặc "chưa xác định" | chưa xác định | Không được đoán. Xem 1.5 |
 
