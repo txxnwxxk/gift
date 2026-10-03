@@ -1,6 +1,6 @@
 # Quy trình làm phim AI – Topview
 
-> v0.5 – **khung 6 Gate và quy trình Gate 1 (6 bước, 3 điểm chốt) đã chốt**. Đang chốt thông số chi tiết của Gate 1 (xem `gates/gate-1-phat-trien.md` và `gates/gate-1-thong-so.md`). Khi mọi Gate được chốt, toàn bộ sẽ được đóng thành skill.
+> v0.6 – **khung 6 Gate, B1 và bộ thông số chuẩn đã chốt**. Đang duyệt B2 Kịch bản (`gates/gate-1-b2-kich-ban.md`). Tài liệu Gate 1: `gates/gate-1-phat-trien.md` (quy trình B1), `gates/gate-1-thong-so.md` (thông số chuẩn). Khi mọi Gate được chốt, toàn bộ sẽ được đóng thành skill.
 
 ## Nguyên tắc đã chốt
 
@@ -11,6 +11,8 @@
 5. Sáu giai đoạn gọi là **Gate 1 → Gate 6**. Phải chốt xong Gate trước mới được sang Gate sau.
 6. Bên trong mỗi Gate có các **điểm chốt** nhỏ; "Gate" chỉ dùng cho giai đoạn lớn.
 7. **Cuối mỗi tin nhắn** luôn có checklist các mục đã chốt và các mục đang chờ chốt.
+8. **Bộ thông số chuẩn** (`gates/gate-1-thong-so.md`) áp dụng cho mọi dự án; không tra cứu lại mỗi lần. Chỉ hiệu chỉnh khi bạn yêu cầu hoặc sau dự án thử (luật L9).
+9. **Gate 1 gồm B1 (6 bước) và B2 (4 bước): 10 bước, 5 điểm chốt.** Chi tiết B2 ở `gates/gate-1-b2-kich-ban.md`.
 
 ## Khung quy trình: 6 Gate, 9 bước
 

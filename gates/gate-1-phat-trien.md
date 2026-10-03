@@ -33,6 +33,7 @@
 | L6 | Tối đa **3 vòng sửa** mỗi điểm chốt. Sang vòng 4, Claude đề xuất quay lại bước trước hoặc đổi hướng |
 | L7 | Nếu bạn chọn phương án có rủi ro, Claude nêu rủi ro **một lần**, rồi làm theo bạn. Ngoại lệ: rủi ro pháp lý (F8) thì không làm |
 | L8 | Mọi tin nhắn kết thúc bằng checklist: đã chốt / đang chờ chốt |
+| L9 | **Bộ thông số chuẩn** trong `gate-1-thong-so.md` áp dụng cho mọi dự án; không tra cứu lại mỗi lần. Chỉ hiệu chỉnh khi bạn yêu cầu hoặc sau dự án thử |
 
 ---
 

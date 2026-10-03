@@ -24,6 +24,8 @@
 | Độ dài shot | Tạm **4 giây [GIẢ ĐỊNH]**, chốt sau ở Gate 3 |
 | "Thử lại" và "vòng sửa" | Hiểu và dùng như mục 6 |
 | Treatment (bước 1.6) | Đồng ý cách làm |
+| Số beat theo hồ sơ | **Chốt theo bảng ở mục 3.5** |
+| Thư viện phim chuẩn | **Bỏ.** Bộ thông số trong file này là **bộ chuẩn**, áp dụng cho mọi dự án sau, không tra cứu lại mỗi lần (luật L9). Chỉ hiệu chỉnh khi bạn yêu cầu hoặc sau dự án thử |
 
 ---
 
@@ -313,9 +315,9 @@ Mức **4 giây [GIẢ ĐỊNH]** nằm trong dải hiện đại. Ở Gate 3 m�
 | Độ dài treatment 250–500 từ | [GIẢ ĐỊNH] | Chưa tra |
 | Trần 15 phút | [SUY RA] | Từ Runway và Cannes |
 
-## 8. Đề xuất: Thư viện phim chuẩn để hiệu chỉnh
+## 8. Thư viện phim chuẩn: ĐÃ BỎ (không làm)
 
-Làm một bảng tham chiếu cho khoảng 8–10 phim kinh điển và phim ngắn đoạt giải, ghi: thời lượng, thời điểm các beat chính, số nhân vật, số bối cảnh, ASL. Từ đó hiệu chỉnh lại các con số đang là [SUY RA] và [GIẢ ĐỊNH] ở trên. Cần bạn đồng ý trước khi làm, vì việc này tốn nhiều thời gian tra cứu.
+Đề xuất làm bảng tham chiếu 8–10 phim đã bị bỏ theo quyết định của bạn. Các con số [SUY RA] và [GIẢ ĐỊNH] ở trên **vẫn là bộ thông số chuẩn** và được hiệu chỉnh sau dự án thử đầu tiên (luật L9).
 
 ## 9. Beat và kịch bản (nền cho bước B2)
 
@@ -334,11 +336,9 @@ Làm một bảng tham chiếu cho khoảng 8–10 phim kinh điển và phim ng
 
 ## 10. Việc chờ chốt
 
-- [ ] Bảng số beat theo hồ sơ (mục 3.5)
-- [ ] Làm "Thư viện phim chuẩn" (mục 8), và nếu làm thì bản nhẹ hay đầy đủ
-- [ ] Quy ước chung và 8 luật; bộ 9 nguyên liệu bàn giao
+- [ ] Quy ước chung và 9 luật (đã thêm L9); bộ nguyên liệu bàn giao
 - [ ] "Style Transformation" là gì; định dạng chính; công cụ chính
-- [ ] Phân tích B2 Kịch bản (mục 9 là bản xem trước)
+- [ ] B2 Kịch bản: xem `gate-1-b2-kich-ban.md` (đang chờ bạn duyệt)
 
 ## Nguồn
 - Hollywood coverage: https://glcoverage.com/2024/11/21/hollywood-screenplay-criteria/ · https://screencraft.org/blog/script-coverage-ratings-explained/
