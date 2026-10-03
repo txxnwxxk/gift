@@ -75,7 +75,7 @@ Sau khi chọn giọng ở B4, tạo đoạn mẫu 20–30 giây bằng chính g
 
 ## Việc để lại cho Gate 3: Bảng chọn công cụ
 
-Chưa quyết ở Gate 1. Gate 3 phải chốt trọn vẹn: model ảnh (ảnh tham chiếu nhân vật, bối cảnh, storyboard) và model video theo từng loại cảnh; độ dài clip tối đa, âm thanh/lipsync, giữ nhất quán, đơn giá credit; từ đó chốt độ dài shot thật. Chi tiết: `gates/gate-1-thong-so.md`, mục 5.
+Chưa quyết ở Gate 1. Gate 3 phải chốt trọn vẹn: model ảnh (ảnh tham chiếu nhân vật, bối cảnh, storyboard) và model video theo từng loại cảnh; độ dài clip tối đa (phụ thuộc độ phân giải và chế độ sinh), âm thanh/lipsync (độ khớp miệng giảm sau khoảng 6–7 giây), giữ nhất quán, đơn giá credit; từ đó chốt độ dài shot thật và kiểm lại giả định "clip tối đa 8 giây" dùng cho thoại khớp miệng ở B2. Chi tiết: `gates/gate-1-thong-so.md` mục 5 và `gates/gate-1-b2-kich-ban.md` mục 3.2.
 
 ## Câu hỏi còn mở
 

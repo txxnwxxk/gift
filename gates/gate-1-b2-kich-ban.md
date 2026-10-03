@@ -52,6 +52,30 @@ Ví dụ: "Ba ơi, đồng hồ chạy lại rồi." = 7 tiếng ≈ 2,1 giây.
 
 **Công cụ theo ngôn ngữ (xử lý ở Gate 2 và 3):** giọng AI của ElevenLabs hỗ trợ tiếng Việt, Tây Ban Nha, Nhật, Hàn (Eleven v3: 74 ngôn ngữ; v4: trên 90) [ĐÃ KIỂM CHỨNG]. Lipsync của Kling 3.0 hỗ trợ 8 ngôn ngữ nhưng nguồn không nêu danh sách, phải kiểm tra [CHƯA RÕ].
 
+### 3.2 Độ dài clip của model và lời
+
+**Clip (model sinh ra) khác shot (đoạn dùng trong phim).** Clip dài hơn shot thì cắt bớt; shot dài hơn clip thì phải nối clip hoặc đổi cách quay. Độ dài clip tối đa theo model [ĐÃ KIỂM CHỨNG: các bảng so sánh 2026, mức tin cậy trung bình]:
+
+| Model | Clip tối đa |
+|---|---|
+| Seedance 2.5 | 4–30 giây |
+| Vidu Q3 | 16 giây |
+| Kling 3.0, Wan 2.7 | 15 giây (Kling: 10 giây chế độ thường, 15 giây chế độ nhiều shot) |
+| Runway Gen-4.5, Luma Ray 3.2 | 10 giây |
+| Veo 3.1 | 8 giây |
+
+Độ dài còn phụ thuộc độ phân giải và tốc độ khung hình: tăng độ phân giải thường làm giảm mức trần. (Sora 2 được liệt kê 12–20 giây nhưng theo các nguồn đã ngừng hoạt động.)
+
+**Lipsync gắn sau (công cụ riêng):** nhận âm thanh dài hơn nhiều: Kling lipsync tới 60 giây, Runway Act-Two 30 giây, Pollo 30 giây, HeyGen 10 phút, Hedra Character 3 tới 600 giây [ĐÃ KIỂM CHỨNG]. Nhưng **độ khớp miệng chỉ giữ chính xác khoảng 6–7 giây với một người nói** trong khung hình [một nguồn, độ tin cậy trung bình]. Vì vậy trần 5 giây mỗi câu vẫn hợp lý dù model sinh được clip 30 giây.
+
+**Hai loại lời bị ràng buộc khác nhau:**
+| | Thoại khớp miệng | Lời dẫn (voice-over) |
+|---|---|---|
+| Tạo thế nào | Cùng clip (model có âm thanh) hoặc lipsync gắn sau | Giọng AI riêng, đặt lên timeline |
+| Ràng buộc bởi clip | **Có**: câu ≤ min(5 giây, clip tối đa − 3 giây) | **Không** |
+| Ràng buộc bởi cảnh | Có | Có (giây có lời của cảnh) |
+| Ảnh hưởng đến shot | Shot chứa thoại ≥ câu + 1 giây, nên shot không còn đều 4 giây | Chỉ cần ngắt câu ở điểm cắt khi có thể |
+
 ---
 
 ## 4. Bốn bước
@@ -91,7 +115,8 @@ Ví dụ: "Ba ơi, đồng hồ chạy lại rồi." = 7 tiếng ≈ 2,1 giây.
 **Luật và giới hạn:**
 - **Ngân sách lời của cảnh = số giây có lời × tốc độ của ngôn ngữ** (bảng 3.1). Tiếng Việt mặc định 3,4 tiếng/giây [SUY RA].
 - **Tỉ lệ giây có lời trên tổng thời lượng:** hồ sơ B và D ≤ **70%**; hồ sơ A, C, E, F ≤ **50%** [GIẢ ĐỊNH].
-- **Mỗi câu thoại ≤ 5 giây khi đọc** (khoảng 17 tiếng với tiếng Việt, khoảng 12 từ với tiếng Anh). Tính theo giây để dùng được cho mọi ngôn ngữ [SUY RA từ clip 8 giây trừ khoảng nghỉ].
+- **Thoại khớp miệng** (nhân vật nói trên hình): **mỗi câu ≤ 5 giây** (khoảng 17 tiếng Việt, khoảng 12 từ Anh) và **tổng thoại trong một clip ≤ clip tối đa của model − 3 giây**. Chưa chọn model ở bước này nên dùng giả định bảo thủ **clip tối đa 8 giây**, kiểm tra lại ở Gate 3 [SUY RA]. Shot chứa thoại phải dài ít nhất bằng câu + 1 giây [GIẢ ĐỊNH].
+- **Lời dẫn (voice-over, không khớp miệng):** tạo riêng rồi đặt lên timeline nên **không bị trần độ dài clip**; chỉ bị giới hạn bởi giây có lời của cảnh. Nên ngắt câu ở điểm cắt shot; một câu có thể trải qua nhiều shot.
 - Tối đa **2 lượt thoại qua lại liên tiếp** (cách giải của cờ F2).
 - Số nhân vật có thoại ≤ trần hồ sơ.
 - Mặc định **ưu tiên voice-over hoặc không lời** nếu brief không yêu cầu thoại, vì thoại nhiều người là cờ F2 [SUY RA].
@@ -144,7 +169,7 @@ Cảnh này có 6 dòng hành động cho 22 giây (≈ 3,7 giây mỗi dòng, t
 7. Các yếu tố "giữ nguyên" còn đủ; logline và thông điệp thể hiện được.
 8. Yêu cầu riêng của hồ sơ (microdrama, kinh dị, quảng cáo) đã đạt.
 9. K1 vẫn đúng.
-10. **Số dòng hành động chính ≈ tổng giây ÷ 4 (±25%).** Nếu lệch hơn, báo ngay vì nó cho biết giả định shot 4 giây có hợp thực tế không (nối với Gate 3) [SUY RA].
+10. **Số dòng hành động không thoại ≈ (tổng giây − giây thoại khớp miệng) ÷ 4 (±25%).** Nếu lệch hơn, báo ngay vì nó cho biết giả định shot 4 giây có hợp thực tế không (nối với Gate 3) [SUY RA].
 11. **Tỉ lệ ba hồi khớp:** Hồi 1 20–25% · Hồi 2 50–60% · Hồi 3 20–25% · midpoint 50% ±10% [ĐÃ KIỂM CHỨNG: Syd Field, Save the Cat; dung sai SUY RA].
 
 **Bóc tách (đầu vào cho Gate 2):**
@@ -189,7 +214,9 @@ Cảnh này có 6 dòng hành động cho 22 giây (≈ 3,7 giây mỗi dòng, t
 | Tốc độ tiếng Hàn, Tây Ban Nha | Chưa có số đáng tin; đo mẫu ở Gate 2 |
 | Số cảnh ≤ số beat | Lập luận logic từ định nghĩa |
 | Tỉ lệ giây có lời: 50% (phim) có nguồn; 70% quảng cáo suy ra; 70% microdrama giả định | Xem mục 6.1 |
-| Mỗi câu thoại ≤ 5 giây | [SUY RA] từ giới hạn clip 8–10 giây |
+| Thoại khớp miệng mỗi câu ≤ 5 giây; tổng trong clip ≤ clip tối đa − 3 giây | [SUY RA] từ giới hạn clip và độ khớp miệng 6–7 giây; "−3 giây" là [GIẢ ĐỊNH] |
+| Độ dài clip tối đa theo model (Seedance 2.5: 4–30 giây; Veo 3.1: 8 giây…) | [ĐÃ KIỂM CHỨNG] mức trung bình, đổi nhanh theo thời gian |
+| Lời dẫn không bị trần clip | Lập luận từ cách làm (tạo riêng, đặt lên timeline) |
 | Độ dài kịch bản ±25% | [SUY RA] |
 | Kiểm tra số dòng hành động ≈ giây ÷ 4 (±25%) | [SUY RA] |
 
@@ -207,7 +234,7 @@ Khi viết bản đầu, phần lớn các con số này **chưa được dẫn 
 | Kinh dị ≤ 35% (đề xuất mới) | Kinh dị là thể loại ít lời nhất (khoảng 6.243 từ thoại mỗi phim, so với 10.289 của phim hình sự) | [SUY RA] |
 | **Giây có lời ≤ 70%** (hồ sơ B quảng cáo) | 30 giây ≈ 60–75 từ ở 2,5 từ/giây; hình sản phẩm, logo, phản ứng có thể chiếm khoảng 1/3 thời lượng mà không có lời | [SUY RA] |
 | Giây có lời ≤ 70% (hồ sơ D microdrama) | **Chưa có nguồn trực tiếp.** Nguồn chỉ nêu tập 90 giây ≈ 400–600 từ cả hành động lẫn thoại, và tập 60 giây ≈ 120–150 từ | [GIẢ ĐỊNH] |
-| **Mỗi câu thoại ≤ 5 giây** | Clip dài 8 giây (Veo 3.1) hoặc 10 giây (Kling 3.0), trừ khoảng 3 giây cho nghỉ và phản ứng. Tính theo giây để dùng cho mọi ngôn ngữ (≈ 17 tiếng Việt, ≈ 12 từ Anh) | [SUY RA] từ giới hạn clip đã kiểm chứng |
+| **Thoại khớp miệng mỗi câu ≤ 5 giây** | Clip ngắn nhất trong nhóm model có âm thanh là 8 giây (Veo 3.1), trừ khoảng 3 giây cho nghỉ và phản ứng; độ khớp miệng chỉ chính xác khoảng 6–7 giây với một người nói. Tính theo giây để dùng cho mọi ngôn ngữ (≈ 17 tiếng Việt, ≈ 12 từ Anh). Chỉ áp cho thoại khớp miệng, không áp cho lời dẫn | [SUY RA] |
 | Microdrama: câu dưới 12 từ | Hướng dẫn viết microdrama: dưới 12 từ mỗi câu, mỗi lượt nói tối đa 2 dòng, hành động mỗi beat ≤ 7 từ, 3–5 beat hình ảnh mỗi tập. 12 từ tiếng Anh ≈ 4,8 giây nên khớp với trần 5 giây | [ĐÃ KIỂM CHỨNG] hướng dẫn từ blog, độ tin cậy trung bình |
 | Tối đa 2 lượt thoại qua lại | Cách giải do mình đặt cho cờ F2 | [GIẢ ĐỊNH] |
 | Mặc định ưu tiên voice-over | Cờ F2; nghiên cứu cho biết hệ thống tạo truyện bằng AI còn thiếu tương tác và đối thoại giữa các nhân vật | [SUY RA] |
@@ -224,6 +251,7 @@ Khi viết bản đầu, phần lớn các con số này **chưa được dẫn 
 - [ ] Cấu trúc B2: 4 bước, 2 điểm chốt (CHỐT 4 sau danh sách cảnh, CHỐT 5 sau kiểm tra và bóc tách)
 - [ ] Ngân sách lời nói (2.2): tính theo ngôn ngữ (mục 3.1), tỉ lệ giây có lời, mỗi câu ≤ 5 giây, đo mẫu giọng ở Gate 2
 - [ ] Mặc định ưu tiên voice-over hoặc không lời khi brief không yêu cầu thoại
+- [ ] Tách hai loại lời: thoại khớp miệng (bị ràng buộc bởi clip) và lời dẫn (không bị ràng buộc bởi clip), mục 3.2
 - [ ] Kịch bản không có góc máy (để Gate 3)
 - [ ] Danh sách 11 kiểm tra ở 2.4 và danh sách bàn giao
 
@@ -240,3 +268,5 @@ Khi viết bản đầu, phần lớn các con số này **chưa được dẫn 
 - Tốc độ nói theo ngôn ngữ: https://en.wikipedia.org/wiki/Speech_tempo · https://www.sciencedirect.com/science/article/abs/pii/S0379073815000432 · https://timviec365.vn/blog/toc-do-doc-trung-binh-cua-nguoi-viet-nam-new15516.html
 - Bản dịch giãn hoặc co: https://eriksen.com/language/text-expansion/
 - Giọng AI theo ngôn ngữ: https://elevenlabs.io/docs/overview/capabilities/text-to-speech · https://elevenlabs.io/blog/introducing-vietnamese-norwegian-and-hungarian
+- Độ dài clip theo model: https://prompt-architects.com/blog/234-video-duration-parameters-by-model · https://www.atlascloud.ai/blog/tips/best-ai-video-generation-models-2026
+- Lipsync: https://www.atlascloud.ai/blog/tips/kling-ai-lip-sync · https://invideo.io/faq/how-long-can-ai-lip-sync-stay-accurate-before-it-breaks/ · https://developers.heygen.com/docs/usage-limits · https://magichour.ai/blog/guide-to-hedra-ai
