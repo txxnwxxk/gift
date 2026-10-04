@@ -71,6 +71,10 @@ B3 và B4 có thể chạy song song.
 - **Tạo ảnh, video, giọng, nhạc:** cần kết nối công cụ (ví dụ plugin Topview sau khi bạn cho phép cài và đăng nhập OAuth). Khi chưa kết nối, Claude chuẩn bị gói prompt sẵn để dán, bạn bấm tạo và gửi kết quả lại để Claude kiểm tra.
 - **Kiểm tra chất lượng:** Claude xem được ảnh; với video, Claude trích khung hình để kiểm tra.
 
+## Gate 2 – Thiết kế
+
+Đang duyệt: `gates/gate-2-thiet-ke.md` (B3 Visual bible và tài sản, B4 Giọng và thoại; 5 bước, 3 điểm chốt CHỐT 6, 7, 8). Gate 1 đã xong phần đặc tả; gói bàn giao Gate 1 là bản tạm thời, chỉnh lại sau khi chạy dự án thử thật.
+
 ## Dữ liệu bạn nhận khi Gate 1 kết thúc
 
 Mô tả và dữ liệu mẫu ở `gates/gate-1-goi-ban-giao.md`: brief, concept, bảng điểm, lõi truyện, beat sheet, treatment, danh sách cảnh, ngân sách lời, kịch bản, bảng bóc tách và nhật ký quyết định. Chưa có ảnh, giọng, storyboard hay video (các Gate sau).

@@ -1,6 +1,6 @@
 # Gói bàn giao cuối Gate 1
 
-> v0.1. Mô tả **dữ liệu bạn nhận được khi Gate 1 kết thúc** cho một dự án. Dữ liệu mẫu bên dưới lấy từ ví dụ minh họa "Chiếc đồng hồ của ba" (60 giây, hồ sơ C); **đây không phải dự án thật**, chỉ để thấy hình dạng dữ liệu.
+> v0.1 – **bản tạm thời**: bạn đã chốt là chạy một dự án thật rồi mới chỉnh lại gói này (các trường, số lượng file, định dạng). Mô tả **dữ liệu bạn nhận được khi Gate 1 kết thúc** cho một dự án. Dữ liệu mẫu bên dưới lấy từ ví dụ minh họa "Chiếc đồng hồ của ba" (60 giây, hồ sơ C); **đây không phải dự án thật**, chỉ để thấy hình dạng dữ liệu.
 
 ## 1. Gate 1 chỉ đóng khi
 
