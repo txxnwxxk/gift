@@ -18,7 +18,12 @@
 | **Film thi giải / điện ảnh** [BẠN NÓI] | **Vẫn Nano Banana Pro** cho ảnh tham chiếu nhân vật, thế giới và storyboard | Chọn **theo từng shot** theo diễn biến (ví dụ cần gấp thì Seedance…) | Topview hoặc CapCut/Dreamina, dùng các model trong đó |
 
 - **Model video chọn theo từng shot ở Gate 3** (Bảng chọn công cụ). Tiêu chí: loại cảnh (thoại, hành động, cảnh rộng, cận mặt), độ dài clip cần, có cần âm thanh hay lipsync, có cần tham chiếu không, tốc độ và ngân sách credit.
-- **Nền tảng tập hợp nhiều model:** Topview có Canvas, Film Studio, Drama Studio, 3D Shot Composer, character swap, motion control, và dùng được Nano Banana Pro cho ảnh [ĐÃ KIỂM CHỨNG]. Dreamina của CapCut có Seedance 2.5 và 2.0, Seedream 5.0, Nano Banana Pro; một số nguồn còn liệt kê Sora 2 và Veo 3.1 [ĐÃ KIỂM CHỨNG, có mâu thuẫn về Sora 2]. Mình **không xác nhận được** sản phẩm tên đúng là "CapCut AI Studio"; thứ mình tìm thấy là Dreamina.
+- **Nền tảng tập hợp nhiều model:** Topview có Canvas, Film Studio, Drama Studio, 3D Shot Composer, character swap, motion control, và dùng được Nano Banana Pro cho ảnh [ĐÃ KIỂM CHỨNG]. Dreamina của CapCut có Seedance 2.5 và 2.0, Seedream 5.0, Nano Banana Pro; một số nguồn còn liệt kê Sora 2 và Veo 3.1 [ĐÃ KIỂM CHỨNG, có mâu thuẫn về Sora 2]. 
+- **CapCut web gồm hai không gian** [ĐÃ KIỂM CHỨNG qua kết quả tìm kiếm; chưa xem tận trang vì môi trường này chặn capcut.com và trang cần đăng nhập]:
+  - **Design Studio** (`capcut.com/ai-design`, phía ảnh): Seedream 5.0, Seedream 5.0 Pro, Nano Banana 2, **Nano Banana Pro**, GPT Image 2; 2K gốc, nâng lên 4K; trang giới thiệu nêu 10 lượt miễn phí mỗi ngày.
+  - **Video Studio** (phía video): canvas vô hạn thay cho timeline; ba loại dự án (Canvas, Storyboard, tự động); AI agent viết kịch bản; dựng nhân vật nhất quán; **Seedance 2.0 clip tối đa 15 giây**, sáu tỉ lệ khung; Veo và Sora ở gói trả phí; Seedance 2.0 ra mắt theo vùng (Đông Nam Á, MENA, Mỹ Latinh, châu Phi).
+  - Mình chưa xác nhận bản Seedance trong CapCut đã lên 2.5 chưa (Dreamina thì có 2.5).
+  - **Việc cần xác nhận trong tài khoản của bạn:** danh sách model thực tế theo vùng và gói, chi phí credit mỗi lần sinh, và giới hạn ảnh tham chiếu. Các thông tin này không có trên trang công khai nên cần bạn chụp màn hình gửi mình.
 
 ---
 
@@ -105,3 +110,4 @@ Mình **đang nghiêng về nghĩa B**, vì vị trí của nó trong khóa họ
 - Nền tảng: https://www.topview.ai/ · https://www.topview.ai/guides/character-swap · https://dreamina.capcut.com/ · https://techcrunch.com/2026/03/26/bytedances-new-ai-video-generation-model-dreamina-seedance-2-0-comes-to-capcut/
 - Video-to-video: https://magichour.ai/blog/best-video-to-video-ai-tools-2026 · https://www.atlabs.ai/blog/runway-aleph-vs-luma-modify-video · https://picsart.com/ai-models/runway-aleph-2-0/ · https://arxiv.org/html/2510.07546
 - Quy trình làm phim AI: https://frameo.ai/blog/ai-film-production-workflow-guide/ · https://www.deepfiction.ai/blog/ai-filmmaking-pipeline-script-to-screen-2026
+- CapCut: https://www.capcut.com/tools/ai-design · https://www.capcut.com/resource/seedream-5-vs-nano-banana-pro · https://www.globenewswire.com/news-release/2026/08/10/3341889/0/en/capcut-design-studio-levels-up-new-skills-ecosystem-and-seedream-5-0-pro-model-bring-pro-grade-ai-design-to-everyone.html · https://x.com/capcutapp/status/2036943209956344181 · https://nofilmschool.com/capcut-vido-studio-seedance-2-0
