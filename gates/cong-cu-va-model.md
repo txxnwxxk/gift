@@ -59,7 +59,7 @@
 
 [ĐÃ KIỂM CHỨNG qua các bảng so sánh 2026, độ tin cậy trung bình. Sora 2 và Seedance 2.0 trong hai nguồn khác nhau có nơi nhầm tên nhau, nên chỉ lấy những điểm nhiều nguồn trùng khớp.]
 
-**Về "cần gấp thì dùng Seedance":** mình không tìm được dữ liệu so sánh tốc độ sinh giữa các model. Với riêng Seedance, nguồn cho thấy chế độ chuẩn không nhanh (45–90 giây) và chỉ chế độ Fast mới nhanh hơn, đổi lại giảm chất lượng. Nếu ý bạn là "cảnh nhịp nhanh, nhiều hành động" thì nguồn lại nghiêng về **Kling 3.0**. Mình cần bạn nói rõ ý.
+**Về "cần gấp thì dùng Seedance":** bạn đã nói đây **chỉ là ví dụ**; nguyên tắc là chọn model phù hợp với mục đích của từng shot (L11), không có model mặc định cho mọi shot. Ghi chú kèm theo: mình không tìm được dữ liệu so sánh tốc độ sinh giữa các model. Với riêng Seedance, nguồn cho thấy chế độ chuẩn không nhanh (45–90 giây) và chỉ chế độ Fast mới nhanh hơn, đổi lại giảm chất lượng. Nếu ý bạn là "cảnh nhịp nhanh, nhiều hành động" thì nguồn lại nghiêng về **Kling 3.0**. Mình cần bạn nói rõ ý.
 
 **Hệ quả cho prompt video** [SUY RA]:
 1. Mỗi clip một chủ thể, một hành động chính, một chuyển động máy [ĐÃ KIỂM CHỨNG: hướng dẫn viết prompt].
@@ -81,6 +81,8 @@
 ---
 
 ## 3. "Style Transformation" nghĩa là gì?
+
+> **Đã chốt: bỏ qua ở thời điểm này** vì chưa quan trọng với phim AI hiện tại, dù hiểu theo nghĩa A, B hay C. Phần dưới giữ lại để tham khảo; nếu cần sẽ làm kỹ thuật tùy chọn ở Gate 4.
 
 **Mình không xác định được định nghĩa gốc của khóa học.** Slide chỉ ghi "Biến hóa phong cách hình ảnh" ở bước 6, sau âm thanh và trước hậu kỳ. Qua nghiên cứu, thuật ngữ này trong làm phim AI có ba nghĩa khả dĩ:
 
