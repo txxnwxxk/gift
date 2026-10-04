@@ -364,9 +364,9 @@ Mức **4 giây [GIẢ ĐỊNH]** nằm trong dải hiện đại. Ở Gate 3 m�
 
 ## 10. Việc chờ chốt
 
-- [ ] Quy ước chung và 9 luật (đã thêm L9); bộ nguyên liệu bàn giao
-- [ ] "Style Transformation" là gì; định dạng chính; công cụ chính
-- [ ] B2 Kịch bản: xem `gate-1-b2-kich-ban.md` (đang chờ bạn duyệt)
+- [ ] Quy ước chung và 11 luật (đã thêm L9, L10, L11)
+- [ ] "Style Transformation": đã nghiên cứu ở `cong-cu-va-model.md` mục 3, chờ bạn xác nhận nghĩa
+- Đã chốt: B2 Kịch bản (`gate-1-b2-kich-ban.md`); công cụ và định dạng do từng dự án quyết định (L10, L11)
 
 ## Nguồn
 - Hollywood coverage: https://glcoverage.com/2024/11/21/hollywood-screenplay-criteria/ · https://screencraft.org/blog/script-coverage-ratings-explained/

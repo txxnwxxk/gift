@@ -26,7 +26,7 @@
 | Q3 | **Ngôn ngữ thoại/lời dẫn** | Việt / Anh / Tây Ban Nha / Nhật / Hàn / khác / không lời; nếu phát hành nhiều ngôn ngữ thì ghi ngôn ngữ gốc và danh sách bản địa hóa | Nơi đăng, khán giả; công cụ giọng/lipsync có hỗ trợ không | Đơn vị đếm và tốc độ đọc (bảng 3.1 của `gate-1-b2-kich-ban.md`), chọn giọng ở Gate 2 |
 | Q4 | **Kiểu lời** | Thoại khớp miệng / lời dẫn (voice-over) / không lời / kết hợp | Theo hồ sơ, xem bảng dưới | Thoại khớp miệng bị ràng buộc bởi clip (mục 3.2 của `gate-1-b2-kich-ban.md`), lời dẫn thì không; số nhân vật có thoại |
 | Q5 | **Tỉ lệ khung** | 16:9 / 2.39:1 / 9:16 | Nền tảng đăng | **Khóa tại đây**; đổi sau là làm lại từ Gate 3 |
-| Q6 | **Điều bắt buộc / cấm và ngân sách credit** | Danh sách tự do; số credit hoặc "chưa xác định" | – | Điều kiện loại ở 1.2 và 1.3; cảnh báo ở 1.5 |
+| Q6 | **Bộ công cụ, điều bắt buộc / cấm và ngân sách credit** | Bộ công cụ: YouTube (Nano Banana Pro + Gemini Omni Flash), film thi giải/điện ảnh (Topview hoặc CapCut/Dreamina, ảnh vẫn Nano Banana Pro), hoặc bộ khác; điều bắt buộc/cấm: danh sách tự do; ngân sách: số credit hoặc "chưa xác định" | Loại dự án và nơi đăng; xem `cong-cu-va-model.md` | Model video vẫn chọn theo từng shot ở Gate 3; điều kiện loại ở 1.2 và 1.3; cảnh báo ở 1.5 |
 
 ### Lời khuyên cho Q4 theo hồ sơ [GIẢ ĐỊNH, dùng để tư vấn, không phải luật]
 

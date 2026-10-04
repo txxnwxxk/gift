@@ -14,6 +14,7 @@
 8. **Bộ thông số chuẩn** (`gates/gate-1-thong-so.md`) áp dụng cho mọi dự án; không tra cứu lại mỗi lần. Chỉ hiệu chỉnh khi bạn yêu cầu hoặc sau dự án thử (luật L9).
 9. **Gate 1 gồm B1 (6 bước) và B2 (4 bước): 10 bước, 5 điểm chốt.** Chi tiết B2 ở `gates/gate-1-b2-kich-ban.md`.
 10. **Lựa chọn của dự án** (hồ sơ/thời lượng, ngôn ngữ, kiểu lời, tỉ lệ khung…) **hỏi ở từng dự án** theo `gates/gate-1-phieu-brief.md`, kèm lời khuyên theo ý tưởng, rồi khóa cho dự án đó (luật L10). Thông số chuẩn thì không hỏi lại (L9).
+11. **Bộ công cụ do từng dự án quyết định** (luật L11): ví dụ YouTube dùng Nano Banana Pro + Gemini Omni Flash; film thi giải/điện ảnh dùng Topview hoặc CapCut/Dreamina nhưng ảnh tham chiếu và storyboard vẫn Nano Banana Pro; model video chọn theo từng shot. Năng lực và giới hạn từng model ở `gates/cong-cu-va-model.md`.
 
 ## Khung quy trình: 6 Gate, 9 bước
 

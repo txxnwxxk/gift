@@ -1,4 +1,4 @@
-# Gate 1 – B2 Kịch bản (v0.1 – CHỜ DUYỆT)
+# Gate 1 – B2 Kịch bản (v0.2 – ĐÃ CHỐT)
 
 > Phần tiếp theo của `gate-1-phat-trien.md` (B1). Thông số lấy từ `gate-1-thong-so.md`, áp dụng luật L9. Nhãn độ tin cậy: **[ĐÃ KIỂM CHỨNG]**, **[SUY RA]**, **[GIẢ ĐỊNH]**, **[ĐỀ XUẤT]**.
 
@@ -246,15 +246,15 @@ Khi viết bản đầu, phần lớn các con số này **chưa được dẫn 
 
 **Đã chốt:** ngôn ngữ và kiểu lời (voice-over hay thoại) **do từng dự án quyết định**, hỏi ở brief (L10). Cách chia voice-over/thoại theo hồ sơ chỉ dùng làm **lời khuyên khi hỏi**, không phải luật cố định (bảng trong `gate-1-phieu-brief.md`).
 
-**Còn chờ chốt:** trần giây có lời ≤ 35% cho kinh dị.
+**Đã chốt:** trần giây có lời ≤ **35%** cho kinh dị.
 
-## 7. Cần bạn chốt
+## 7. Đã chốt
 
-- [ ] Cấu trúc B2: 4 bước, 2 điểm chốt (CHỐT 4 sau danh sách cảnh, CHỐT 5 sau kiểm tra và bóc tách)
-- [ ] Ngân sách lời nói (2.2): tính theo ngôn ngữ (mục 3.1), tỉ lệ giây có lời, mỗi câu ≤ 5 giây, đo mẫu giọng ở Gate 2
-- [ ] Tách hai loại lời: thoại khớp miệng (bị ràng buộc bởi clip) và lời dẫn (không bị ràng buộc bởi clip), mục 3.2
-- [ ] Kịch bản không có góc máy (để Gate 3)
-- [ ] Danh sách 11 kiểm tra ở 2.4 và danh sách bàn giao
+- [x] Cấu trúc B2: 4 bước, 2 điểm chốt (CHỐT 4 sau danh sách cảnh, CHỐT 5 sau kiểm tra và bóc tách)
+- [x] Ngân sách lời nói (2.2): tính theo ngôn ngữ (mục 3.1), tỉ lệ giây có lời, mỗi câu thoại khớp miệng ≤ 5 giây, đo mẫu giọng ở Gate 2; kinh dị ≤ 35%
+- [x] Tách hai loại lời: thoại khớp miệng (bị ràng buộc bởi clip) và lời dẫn (không bị ràng buộc bởi clip), mục 3.2
+- [x] Kịch bản không có góc máy (để Gate 3)
+- [x] Danh sách 11 kiểm tra ở 2.4 và 8 nguyên liệu bàn giao
 
 ## Nguồn
 - Cảnh: https://nofilmschool.com/how-to-write-a-scene · https://tripteepictures.com/articles/turn-your-scene · https://theweeklyemail.storyandplot.com/five-questions-for-every-scene/ · https://thescriptlab.com/screenwriting/script-tips/620-scenes-start-late-get-out-early/

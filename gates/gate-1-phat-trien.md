@@ -35,6 +35,7 @@
 | L8 | Mọi tin nhắn kết thúc bằng checklist: đã chốt / đang chờ chốt |
 | L9 | **Bộ thông số chuẩn** trong `gate-1-thong-so.md` áp dụng cho mọi dự án; không tra cứu lại mỗi lần. Chỉ hiệu chỉnh khi bạn yêu cầu hoặc sau dự án thử |
 | L10 | **Lựa chọn của dự án** (hồ sơ, ngôn ngữ, kiểu lời, tỉ lệ khung…) được **hỏi ở từng dự án**, kèm lời khuyên theo ý tưởng, rồi khóa cho dự án đó. Mẫu câu hỏi ở `gate-1-phieu-brief.md` |
+| L11 | **Bộ công cụ do từng dự án quyết định**; model video chọn **theo từng shot** ở Gate 3; prompt viết theo điểm mạnh và điểm yếu của model được chọn (`cong-cu-va-model.md`). Mỗi dự án có một bài thử 1 shot ở đầu Gate 3 |
 
 ---
 
