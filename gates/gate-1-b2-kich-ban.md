@@ -119,7 +119,7 @@ Ví dụ: "Ba ơi, đồng hồ chạy lại rồi." = 7 tiếng ≈ 2,1 giây.
 - **Lời dẫn (voice-over, không khớp miệng):** tạo riêng rồi đặt lên timeline nên **không bị trần độ dài clip**; chỉ bị giới hạn bởi giây có lời của cảnh. Nên ngắt câu ở điểm cắt shot; một câu có thể trải qua nhiều shot.
 - Tối đa **2 lượt thoại qua lại liên tiếp** (cách giải của cờ F2).
 - Số nhân vật có thoại ≤ trần hồ sơ.
-- Mặc định **ưu tiên voice-over hoặc không lời** nếu brief không yêu cầu thoại, vì thoại nhiều người là cờ F2 [SUY RA].
+- **Kiểu lời do từng dự án quyết định** (hỏi ở brief, xem `gate-1-phieu-brief.md`). Khi tư vấn, mình nghiêng về voice-over hoặc không lời vì thoại nhiều người là cờ F2 [SUY RA].
 - Với nhân vật có thoại, ghi sơ bộ giọng (độ tuổi, vùng, tính cách) để Gate 2 chọn giọng.
 
 **Đầu ra:** `P01_G1_2.2_ngan_sach_loi_v1.md` (bảng theo cảnh).
@@ -244,13 +244,14 @@ Khi viết bản đầu, phần lớn các con số này **chưa được dẫn 
 - Kling 3.0 cải thiện lipsync cho 8 ngôn ngữ, nhưng nguồn **không nói có tiếng Việt hay không**. Phải kiểm tra trước khi chọn làm thoại tiếng Việt.
 - Theo các nguồn tìm được, **Sora 2 đã ngừng** (ứng dụng ngừng ngày 26/4/2026, API đóng ngày 24/9/2026). Không dựa vào nó khi chọn công cụ.
 
-**Đề xuất điều chỉnh (chờ chốt):** (1) thêm trần giây có lời ≤ 35% cho kinh dị; (2) cách chia voice-over/thoại theo hồ sơ [GIẢ ĐỊNH]: quảng cáo thiên về voice-over, microdrama thiên về thoại, phim cảm xúc để voice-over ở mức tối thiểu; (3) **đưa ngôn ngữ thoại/voice-over thành trường bắt buộc của brief** (mục 3.1).
+**Đã chốt:** ngôn ngữ và kiểu lời (voice-over hay thoại) **do từng dự án quyết định**, hỏi ở brief (L10). Cách chia voice-over/thoại theo hồ sơ chỉ dùng làm **lời khuyên khi hỏi**, không phải luật cố định (bảng trong `gate-1-phieu-brief.md`).
+
+**Còn chờ chốt:** trần giây có lời ≤ 35% cho kinh dị.
 
 ## 7. Cần bạn chốt
 
 - [ ] Cấu trúc B2: 4 bước, 2 điểm chốt (CHỐT 4 sau danh sách cảnh, CHỐT 5 sau kiểm tra và bóc tách)
 - [ ] Ngân sách lời nói (2.2): tính theo ngôn ngữ (mục 3.1), tỉ lệ giây có lời, mỗi câu ≤ 5 giây, đo mẫu giọng ở Gate 2
-- [ ] Mặc định ưu tiên voice-over hoặc không lời khi brief không yêu cầu thoại
 - [ ] Tách hai loại lời: thoại khớp miệng (bị ràng buộc bởi clip) và lời dẫn (không bị ràng buộc bởi clip), mục 3.2
 - [ ] Kịch bản không có góc máy (để Gate 3)
 - [ ] Danh sách 11 kiểm tra ở 2.4 và danh sách bàn giao
